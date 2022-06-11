@@ -535,6 +535,9 @@ func movement(delta):
 				$RandomWalk/WalkAudioTimer.start()
 
 # CAMERA SYSTEM  ----------------------------------------------------------------------------
+
+# 
+
 func camera(delta):
 # The crosshair's position will allways be at the middle of the screen.
 	$Crosshair.position = get_viewport().size / 2
