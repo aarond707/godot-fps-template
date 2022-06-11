@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/1K-brick_wall_13_baseColor.png-4a1b1de1069e9e5bb033e09d0520cb52.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://textures/PixelArtTextures/Bricks/Bricks_15/1K-brick_wall_13_baseColor.png"
+dest_files=[ "res://.import/1K-brick_wall_13_baseColor.png-4a1b1de1069e9e5bb033e09d0520cb52.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

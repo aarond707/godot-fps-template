@@ -121,12 +121,12 @@ transform = Transform( 0.9375, 0, 0, 0, 0.9375, 0, 0, 0, 0.9375, 0, -1.10625, 0 
 enabled = true
 cast_to = Vector3( 0, -1.021, 0 )
 collide_with_areas = true
-debug_shape_thickness = 5
+debug_shape_thickness = 5.0
 
 [node name="TopCheck" type="RayCast" parent="."]
 enabled = true
 cast_to = Vector3( 0, 2.021, 0 )
-debug_shape_thickness = 5
+debug_shape_thickness = 5.0
 
 [node name="Crosshair" type="Node2D" parent="."]
 visible = false
@@ -178,11 +178,6 @@ stream = ExtResource( 6 )
 [node name="ClimbTimeout" type="Timer" parent="."]
 wait_time = 0.1
 one_shot = true
-
-[node name="CSGBox" type="CSGBox" parent="."]
-transform = Transform( 0.9375, 0, 0, 0, 0.9375, -1.16415e-10, 0, 1.16415e-10, 0.9375, 0, 0.61028, -2.08445 )
-width = 0.222263
-height = 0.230715
 
 [connection signal="area_entered" from="ClimbCheck" to="." method="_on_ClimbCheck_area_entered"]
 [connection signal="area_exited" from="ClimbCheck" to="." method="_on_ClimbCheck_area_exited"]
