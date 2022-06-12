@@ -207,7 +207,7 @@ _global_script_class_icons={
 [application]
 
 config/name="!Workshop02"
-run/main_scene="res://Prototype.tscn"
+run/main_scene="res://inside00.tscn"
 
 [audio]
 
