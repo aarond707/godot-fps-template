@@ -99,6 +99,12 @@ anims/bobbing = SubResource( 11 )
 root_node = NodePath("../..")
 anims/land = SubResource( 16 )
 
+[node name="SpotLight" type="SpotLight" parent="Head/Camera"]
+light_energy = 5.0
+light_bake_mode = 0
+spot_range = 11.2092
+spot_attenuation = 3.03143
+
 [node name="Hand" type="SpringArm" parent="Head"]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
 spring_length = 5.0
@@ -121,12 +127,12 @@ transform = Transform( 0.9375, 0, 0, 0, 0.9375, 0, 0, 0, 0.9375, 0, -1.10625, 0 
 enabled = true
 cast_to = Vector3( 0, -1.021, 0 )
 collide_with_areas = true
-debug_shape_thickness = 5.0
+debug_shape_thickness = 5
 
 [node name="TopCheck" type="RayCast" parent="."]
 enabled = true
 cast_to = Vector3( 0, 2.021, 0 )
-debug_shape_thickness = 5.0
+debug_shape_thickness = 5
 
 [node name="Crosshair" type="Node2D" parent="."]
 visible = false

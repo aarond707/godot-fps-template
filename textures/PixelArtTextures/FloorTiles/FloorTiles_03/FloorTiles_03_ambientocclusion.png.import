@@ -2,26 +2,28 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/FloorTiles_03_ambientocclusion.png-118fcd0430f960be51434e4b10e7ac88.stex"
+path.s3tc="res://.import/FloorTiles_03_ambientocclusion.png-118fcd0430f960be51434e4b10e7ac88.s3tc.stex"
+path.etc2="res://.import/FloorTiles_03_ambientocclusion.png-118fcd0430f960be51434e4b10e7ac88.etc2.stex"
 metadata={
-"vram_texture": false
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://textures/PixelArtTextures/FloorTiles/FloorTiles_03/FloorTiles_03_ambientocclusion.png"
-dest_files=[ "res://.import/FloorTiles_03_ambientocclusion.png-118fcd0430f960be51434e4b10e7ac88.stex" ]
+dest_files=[ "res://.import/FloorTiles_03_ambientocclusion.png-118fcd0430f960be51434e4b10e7ac88.s3tc.stex", "res://.import/FloorTiles_03_ambientocclusion.png-118fcd0430f960be51434e4b10e7ac88.etc2.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=0
+flags/repeat=true
 flags/filter=true
-flags/mipmaps=false
+flags/mipmaps=true
 flags/anisotropic=false
 flags/srgb=2
 process/fix_alpha_border=true
@@ -31,5 +33,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
