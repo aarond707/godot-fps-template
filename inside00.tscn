@@ -1,4 +1,4 @@
-[gd_scene load_steps=96 format=2]
+[gd_scene load_steps=97 format=2]
 
 [ext_resource path="res://default_env.tres" type="Environment" id=1]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Ladder/ProceduralLadder.tscn" type="PackedScene" id=5]
 [ext_resource path="res://textures/texture_01.tres" type="Material" id=6]
 [ext_resource path="res://Rigidbodies/RigidBodies3.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Button/Button.tscn" type="PackedScene" id=8]
 [ext_resource path="res://UI/Pause/Theme/Theme.tres" type="Theme" id=13]
 [ext_resource path="res://UI/fps logo.png" type="Texture" id=14]
 [ext_resource path="res://mainmenu.gd" type="Script" id=15]
@@ -698,8 +699,11 @@ LadderHeight = 4
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 15, 16 )
 LadderHeight = 4
 
-[node name="Rigid Bodies" parent="MechInterior" instance=ExtResource( 7 )]
+[node name="Crates01" parent="MechInterior" instance=ExtResource( 7 )]
 transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 0, 23, 8 )
+
+[node name="Button" parent="MechInterior" instance=ExtResource( 8 )]
+transform = Transform( 0.45, 0, 0, 0, 0.45, 0, 0, 0, 0.45, -19.3859, 2, 7.01283 )
 
 [connection signal="pressed" from="Menu/Control/VBoxContainer/Button" to="Menu" method="_on_Play_pressed"]
 [connection signal="pressed" from="Menu/Control/VBoxContainer/Button2" to="Menu" method="_on_Settings_pressed"]
