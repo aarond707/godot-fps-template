@@ -191,6 +191,8 @@ func _input(event: InputEvent) -> void:
 		if event is InputEventMouseMotion:
 			cameraInput = event.relative
 
+
+
 	# If I press the interact button (E),
 		if Input.is_action_just_pressed("interact"):
 	# if I'm holding an object, let go of that object.
@@ -281,7 +283,12 @@ func _physics_process(delta: float) -> void:
 	# If I am currently holding an object, decide what to do with that object with this function.
 		if objectGrabbed:
 			grab()
-
+	# I moved this into the physics process because it had issues when only doing it
+	# through the input function
+	if Input.get_joy_axis(0, JOY_AXIS_2) != 0:
+		cameraInput.x = Input.get_joy_axis(0, JOY_AXIS_2)
+	if Input.get_joy_axis(0, JOY_AXIS_3) != 0:
+		cameraInput.y = Input.get_joy_axis(0, JOY_AXIS_3)
 # MOVEMENT SYSTEM ----------------------------------------------------------------------------
 # warning-ignore:function_conflicts_variable
 func movement(delta):
@@ -545,6 +552,11 @@ func camera(delta):
 # The mouse movement is interpolated into rotationVelocity with CameraSmoothing. It is also 
 # multiplied by the MouseSensitivity.
 	rotationVelocity = rotationVelocity.linear_interpolate(cameraInput * (MouseSensitivity * 0.25), delta * CameraSmoothing)
+# Can I also just use this for when there is joystick input? I may need to make these 
+# two mutually exclusive
+
+
+
 # We interpolate the Z rotation of the camera which gives it a slight tilt.
 	$Head/Camera.rotation_degrees.z = lerp($Head/Camera.rotation_degrees.z,
 # The value is taken from pressing the left input which is multiplied by TiltAmmount
@@ -554,6 +566,9 @@ func camera(delta):
 # The same concept works for the right input.
 	(-TiltAmmount * (float(Input.is_action_pressed("right")) * float(is_on_floor()) ) ),
 	delta * TiltSpeed)
+
+
+
 
 # When the player is holding the right mouse button and if I am holding an object:
 	if Input.is_mouse_button_pressed(BUTTON_RIGHT):
@@ -577,7 +592,7 @@ func camera(delta):
 		$Head.rotation.x = clamp($Head.rotation.x,deg2rad(-90),deg2rad(90))
 	# Remove all mouse movement information to avoid the mouse movement to stack.
 		cameraInput = Vector2.ZERO
-
+		
 # If Sprint FOV is on:
 	if SprintFOVToggle:
 	# FOV is set by the speed of the player.

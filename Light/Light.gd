@@ -31,12 +31,26 @@ func UpdateCycling(b):
 
 # This is a conditional signal, to which if the light is connected to a door, where it sends the 
 # Locked variable.
+
+#if I rewire this, I'm checking for a different signal. I'm looking for a true or false on whether 
+#or not the mech is moving. I could also be looking for whether or not the button was pressed,
+#but I don't think that's really what I want this light to reflect.
+
 func _on_Doorway_doorStatus(status) -> void:
 	# If the door is locked, then it switches to the first color setting.
 	if status:
-		$CollisionShape/LightBase/LightBulb.get_active_material(0).set_albedo(InitialColor)
-		$CollisionShape/LightBase/LightBulb.get_active_material(0).set_emission(InitialColor)
+		lightOn()
 	# Otherwise, switch the bulb to the second color setting.
 	else:
 		$CollisionShape/LightBase/LightBulb.get_active_material(0).set_albedo(FinalColor)
 		$CollisionShape/LightBase/LightBulb.get_active_material(0).set_emission(FinalColor)
+
+func lightOn() -> void:
+		$CollisionShape/LightBase/LightBulb.get_active_material(0).set_albedo(InitialColor)
+		$CollisionShape/LightBase/LightBulb.get_active_material(0).set_emission(InitialColor)
+
+
+func _on_TripTimer_tripStatus(status):
+	if status == "on":
+		lightOn()
+

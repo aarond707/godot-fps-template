@@ -22,8 +22,6 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-anchor_top = -0.0109141
-anchor_bottom = -0.0109141
 margin_top = 30.0
 margin_right = 635.0
 margin_bottom = 183.0
