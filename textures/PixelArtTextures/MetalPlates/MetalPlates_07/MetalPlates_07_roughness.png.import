@@ -2,21 +2,19 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/MetalPlates_07_roughness.png-247e8963961d9ae44955d923fc45f154.s3tc.stex"
-path.etc2="res://.import/MetalPlates_07_roughness.png-247e8963961d9ae44955d923fc45f154.etc2.stex"
+path="res://.import/MetalPlates_07_roughness.png-247e8963961d9ae44955d923fc45f154.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/PixelArtTextures/MetalPlates/MetalPlates_07/MetalPlates_07_roughness.png"
-dest_files=[ "res://.import/MetalPlates_07_roughness.png-247e8963961d9ae44955d923fc45f154.s3tc.stex", "res://.import/MetalPlates_07_roughness.png-247e8963961d9ae44955d923fc45f154.etc2.stex" ]
+dest_files=[ "res://.import/MetalPlates_07_roughness.png-247e8963961d9ae44955d923fc45f154.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

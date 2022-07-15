@@ -9,6 +9,71 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Resource",
+"class": "AreaMapData",
+"language": "GDScript",
+"path": "res://addons/world_edtior/resource/AreaMapData.gd"
+}, {
+"base": "Resource",
+"class": "ChapterMapData",
+"language": "GDScript",
+"path": "res://addons/world_edtior/resource/ChapterMapData.gd"
+}, {
+"base": "Resource",
+"class": "Event",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/resources/event_class/event_class.gd"
+}, {
+"base": "Event",
+"class": "EventCall",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/call_from.gd"
+}, {
+"base": "Event",
+"class": "EventComment",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/comment.gd"
+}, {
+"base": "Event",
+"class": "EventCondition",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/new_condition.gd"
+}, {
+"base": "Event",
+"class": "EventEmitSignal",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/emit_signal.gd"
+}, {
+"base": "Event",
+"class": "EventGoTo",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/goto.gd"
+}, {
+"base": "Event",
+"class": "EventHide",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/hide.gd"
+}, {
+"base": "Node",
+"class": "EventManager",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/nodes/event_manager/event_manager.gd"
+}, {
+"base": "Event",
+"class": "EventSet",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/set.gd"
+}, {
+"base": "Event",
+"class": "EventShow",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/show.gd"
+}, {
+"base": "Event",
+"class": "EventWait",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/events/wait.gd"
+}, {
 "base": "Reference",
 "class": "InkBase",
 "language": "GDScript",
@@ -444,10 +509,20 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/import_plugins/quake_wad_import_plugin.gd"
 }, {
+"base": "Resource",
+"class": "RoomMapConfig",
+"language": "GDScript",
+"path": "res://addons/world_edtior/resource/RoomMapConfig.gd"
+}, {
 "base": "LiquidLayer",
 "class": "SlimeLayer",
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/slime.gd"
+}, {
+"base": "Resource",
+"class": "Timeline",
+"language": "GDScript",
+"path": "res://addons/event_system_plugin/resources/timeline_class/timeline_class.gd"
 }, {
 "base": "Resource",
 "class": "TrenchBroomFaceAttrib",
@@ -473,8 +548,26 @@ _global_script_classes=[ {
 "class": "WaterLayer",
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
+}, {
+"base": "Object",
+"class": "WorldEditorPropertyHelper",
+"language": "GDScript",
+"path": "res://addons/world_edtior/common/WorldEditorPropertyHelper.gd"
 } ]
 _global_script_class_icons={
+"AreaMapData": "",
+"ChapterMapData": "",
+"Event": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
+"EventCall": "",
+"EventComment": "",
+"EventCondition": "",
+"EventEmitSignal": "",
+"EventGoTo": "",
+"EventHide": "",
+"EventManager": "",
+"EventSet": "",
+"EventShow": "",
+"EventWait": "",
 "InkBase": "",
 "InkBoolValue": "",
 "InkCSharpValidator": "",
@@ -562,18 +655,21 @@ _global_script_class_icons={
 "QuakePaletteImportPlugin": "",
 "QuakeWadFile": "",
 "QuakeWadImportPlugin": "",
+"RoomMapConfig": "",
 "SlimeLayer": "",
+"Timeline": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
 "TrenchBroomFaceAttrib": "",
 "TrenchBroomGameConfigFile": "",
 "TrenchBroomGameConfigFolder": "",
 "TrenchBroomTag": "",
-"WaterLayer": ""
+"WaterLayer": "",
+"WorldEditorPropertyHelper": ""
 }
 
 [application]
 
 config/name="this horrible machine"
-run/main_scene="res://inside00.tscn"
+run/main_scene="res://Game.tscn"
 
 [audio]
 
