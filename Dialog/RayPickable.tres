@@ -1,0 +1,129 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/dialogue_manager/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+syntax_version = 2
+raw_text = "~ this_is_a_node_title
+if has_met_ray == false
+	Ray: Howdy. I'm Ray.
+	set has_met_ray = true
+else
+	Ray: What's up.
+- Start again => this_is_a_node_title
+- End the conversation => END
+Ray: For more information about conditional dialogue, mutations, and all the fun stuff, see the online documentation."
+errors = [  ]
+titles = {
+"this_is_a_node_title": "1"
+}
+lines = {
+"0": {
+"next_id": "1",
+"text": "this_is_a_node_title",
+"type": "title"
+},
+"1": {
+"condition": {
+"expression": [ {
+"type": "variable",
+"value": "has_met_ray"
+}, {
+"type": "comparison",
+"value": "=="
+}, {
+"type": "bool",
+"value": false
+} ]
+},
+"next_conditional_id": "4",
+"next_id": "2",
+"next_id_after": "6",
+"type": "condition"
+},
+"2": {
+"character": "Ray",
+"character_replacements": [  ],
+"inline_mutations": [  ],
+"next_id": "3",
+"parent_id": "1",
+"pauses": {
+},
+"replacements": [  ],
+"speeds": [  ],
+"text": "Howdy. I'm Ray.",
+"time": null,
+"translation_key": "Howdy. I'm Ray.",
+"type": "dialogue"
+},
+"3": {
+"mutation": {
+"expression": [ {
+"type": "variable",
+"value": "has_met_ray"
+}, {
+"type": "assignment",
+"value": "="
+}, {
+"type": "bool",
+"value": true
+} ]
+},
+"next_id": "6",
+"parent_id": "1",
+"type": "mutation"
+},
+"4": {
+"next_conditional_id": "6",
+"next_id": "5",
+"next_id_after": "6",
+"type": "condition"
+},
+"5": {
+"character": "Ray",
+"character_replacements": [  ],
+"inline_mutations": [  ],
+"next_id": "6",
+"parent_id": "4",
+"pauses": {
+},
+"replacements": [  ],
+"speeds": [  ],
+"text": "What's up.",
+"time": null,
+"translation_key": "What's up.",
+"type": "dialogue"
+},
+"6": {
+"next_id": "1",
+"next_id_after": "8",
+"replacements": [  ],
+"responses": PoolStringArray( "6", "7" ),
+"text": "Start again",
+"translation_key": "Start again",
+"type": "response"
+},
+"7": {
+"next_id": "8",
+"next_id_after": "8",
+"replacements": [  ],
+"text": "End the conversation",
+"translation_key": "End the conversation",
+"type": "response"
+},
+"8": {
+"character": "Ray",
+"character_replacements": [  ],
+"inline_mutations": [  ],
+"next_id": "",
+"pauses": {
+},
+"replacements": [  ],
+"speeds": [  ],
+"text": "For more information about conditional dialogue, mutations, and all the fun stuff, see the online documentation.",
+"time": null,
+"translation_key": "For more information about conditional dialogue, mutations, and all the fun stuff, see the online documentation.",
+"type": "dialogue"
+}
+}

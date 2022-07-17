@@ -236,7 +236,10 @@ func _input(event: InputEvent) -> void:
 							Item.global_transform = get_node("Head/ItemPosition").global_transform
 
 		# Emits a signal that interacted with something and send that node to it.
+		#use this signal to trigger npc dialog if the collider is an NPC
 					emit_signal("interact", $Head/RayCast.get_collider())
+
+
 
 
 	# If the player releases the interact key, it emits a signal that states that I have let go of the object I am 

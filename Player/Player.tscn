@@ -101,7 +101,7 @@ root_node = NodePath("../..")
 anims/land = SubResource( 16 )
 
 [node name="Hand" type="SpringArm" parent="Head"]
-transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+transform = Transform( -1, 0, -8.74228e-08, 8.27181e-25, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
 spring_length = 5.0
 margin = 0.0
 

@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Materials/Atlas.material" type="Material" id=1]
+[ext_resource path="res://Models/ladder00.gltf" type="PackedScene" id=2]
 
 [sub_resource type="BoxShape" id=3]
 extents = Vector3( 0.255, 1, 1.141 )
@@ -34,7 +35,11 @@ __meta__ = {
 [node name="CollisionShape" type="CollisionShape" parent="."]
 shape = SubResource( 3 )
 
+[node name="ladder00" parent="." instance=ExtResource( 2 )]
+transform = Transform( -5.46392e-09, 0, 0.125, 0, 0.125, 0, -0.125, 0, -5.46392e-09, 0.265, 0, 0 )
+
 [node name="Cube010" type="MeshInstance" parent="."]
+visible = false
 mesh = SubResource( 1 )
 skeleton = NodePath("../..")
 material/0 = null
