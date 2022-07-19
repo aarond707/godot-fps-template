@@ -18,13 +18,13 @@ export var StaminaDrain:float = 1.0
 # If true, the player would play a bobbing animation when moving.
 export var Bobbing = true
 # If false, the player will not change FOV.
-export var SprintFOVToggle = true
+export var SprintFOVToggle = false
 # The height of your jump.
 export var Jump = 20
 # How many jumps the player can do.
 export var MaxJumps = 1
 # The user's mouse sensitivity.
-export var MouseSensitivity = 1
+export var MouseSensitivity = 20
 # How much the camera is being smoothened (lower = smoother)
 export var CameraSmoothing = 20
 # The gravity of the player.
@@ -43,11 +43,11 @@ export var ScrollStrength = 1
 # How smooth that scrolling is.
 export var ScrollSmoothing = .2
 # General walking speed, sprinting speed and crouching speed.
-export var Speed = 10
-export var SprintSpeedFactor = 10
-export var CrouchSpeedFactor = 10
+export var Speed = 5
+export var SprintSpeedFactor = 5
+export var CrouchSpeedFactor = 5
 # How much tilt your camera does when moving sideways, and how fast it is.
-export var TiltAmmount = 3
+export var TiltAmmount = 2
 export var TiltSpeed = 5
 # How smoothly your camera transitions from standing to crouching.
 export var CrouchSmoothing = 20
@@ -89,7 +89,7 @@ var stillSprinting = false
 # How many times the player has jumped.
 var jumpCount = 0
 # Default FOV of the player. (modified through the export variables)
-var fov = 70
+var fov = 90
 
 # Default length of the rigid body grabbing system.
 var scrollInput = 5

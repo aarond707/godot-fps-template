@@ -751,7 +751,6 @@ default_bus_layout="res://Deprecated/default_bus_layout.tres"
 
 Global="*res://Global.gd"
 Pause="*res://UI/Pause/Pause.tscn"
-DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 GameState="*res://Scripts/game_state.gd"
 
 [display]
@@ -764,7 +763,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/dialogue_manager/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/gdsam/plugin.cfg", "res://addons/qodot/plugin.cfg", "res://addons/todo-cards/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/qodot/plugin.cfg" )
 
 [importer_defaults]
 

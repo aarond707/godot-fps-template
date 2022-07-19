@@ -122,12 +122,12 @@ transform = Transform( 0.9375, 0, 0, 0, 0.9375, 0, 0, 0, 0.9375, 0, -1.10625, 0 
 enabled = true
 cast_to = Vector3( 0, -1.021, 0 )
 collide_with_areas = true
-debug_shape_thickness = 5
+debug_shape_thickness = 5.0
 
 [node name="TopCheck" type="RayCast" parent="."]
 enabled = true
 cast_to = Vector3( 0, 2.021, 0 )
-debug_shape_thickness = 5
+debug_shape_thickness = 5.0
 
 [node name="Crosshair" type="Node2D" parent="."]
 visible = false
@@ -181,11 +181,11 @@ wait_time = 0.1
 one_shot = true
 
 [node name="OmniLight" type="OmniLight" parent="."]
-light_energy = 0.5
-light_specular = 0.0
+light_energy = 0.25
+light_specular = 0.15
 light_bake_mode = 0
-omni_range = 10.0
-omni_attenuation = 8.28211
+omni_range = 50.0
+omni_attenuation = 30.0
 
 [connection signal="area_entered" from="ClimbCheck" to="." method="_on_ClimbCheck_area_entered"]
 [connection signal="area_exited" from="ClimbCheck" to="." method="_on_ClimbCheck_area_exited"]
