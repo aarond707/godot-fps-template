@@ -122,12 +122,12 @@ transform = Transform( 0.9375, 0, 0, 0, 0.9375, 0, 0, 0, 0.9375, 0, -1.10625, 0 
 enabled = true
 cast_to = Vector3( 0, -1.021, 0 )
 collide_with_areas = true
-debug_shape_thickness = 5.0
+debug_shape_thickness = 5
 
 [node name="TopCheck" type="RayCast" parent="."]
 enabled = true
 cast_to = Vector3( 0, 2.021, 0 )
-debug_shape_thickness = 5.0
+debug_shape_thickness = 5
 
 [node name="Crosshair" type="Node2D" parent="."]
 visible = false
@@ -157,6 +157,7 @@ transform = Transform( 1, 0, 0, 0, 1, -6.98492e-10, 0, 6.98492e-10, 1, 0, 0.2982
 shape = SubResource( 15 )
 
 [node name="RandomWalk" type="AudioStreamPlayer" parent="."]
+autoplay = true
 script = ExtResource( 3 )
 AudioFiles = [ ExtResource( 7 ), ExtResource( 6 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 8 ) ]
 

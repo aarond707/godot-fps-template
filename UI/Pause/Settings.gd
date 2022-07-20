@@ -5,6 +5,7 @@ var keybindChange = false
 # When the game starts, add a global callback to the settings,
 func _ready() -> void:
 	Global.Settings = self
+	#I set this to default fullscreen
 	OS.window_fullscreen = true
 
 # This detects if I am pressing a keyboard key to apply for key binding.

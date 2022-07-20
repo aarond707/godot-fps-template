@@ -5,7 +5,6 @@
 [ext_resource path="res://textures/PixelArtTextures/Wall_03_Roughness.png" type="Texture" id=3]
 [ext_resource path="res://textures/PixelArtTextures/Wall_03_Normal.png" type="Texture" id=4]
 
-
 [resource]
 albedo_color = Color( 0.568627, 0.568627, 0.568627, 1 )
 albedo_texture = ExtResource( 1 )
