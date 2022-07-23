@@ -181,9 +181,10 @@ stream = ExtResource( 6 )
 wait_time = 0.1
 one_shot = true
 
-[node name="OmniLight" type="OmniLight" parent="."]
-light_energy = 0.25
-light_specular = 0.15
+[node name="AmbientLight" type="OmniLight" parent="."]
+light_energy = 0.15
+light_indirect_energy = 0.15
+light_specular = 0.0
 light_bake_mode = 0
 omni_range = 50.0
 omni_attenuation = 30.0
