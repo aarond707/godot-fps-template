@@ -286,12 +286,17 @@ func _physics_process(delta: float) -> void:
 	# If I am currently holding an object, decide what to do with that object with this function.
 		if objectGrabbed:
 			grab()
+	#If we're out of the deadzone, then we use joypad controls
 	# I moved this into the physics process because it had issues when only doing it
 	# through the input function
-	if Input.get_joy_axis(0, JOY_AXIS_2) != 0:
-		cameraInput.x = Input.get_joy_axis(0, JOY_AXIS_2)
-	if Input.get_joy_axis(0, JOY_AXIS_3) != 0:
-		cameraInput.y = Input.get_joy_axis(0, JOY_AXIS_3)
+	#if Input.get_joy_axis(0, JOY_AXIS_2) != 0:
+	#	cameraInput.x = Input.get_joy_axis(0, JOY_AXIS_2)
+	#if Input.get_joy_axis(0, JOY_AXIS_3) != 0:
+	#	cameraInput.y = Input.get_joy_axis(0, JOY_AXIS_3)
+	
+	cameraInput.x = Input.get_action_strength("look_right") - Input.get_action_strength("look_left")
+	cameraInput.y = Input.get_action_strength("look_down") - Input.get_action_strength("look_up")
+	
 # MOVEMENT SYSTEM ----------------------------------------------------------------------------
 # warning-ignore:function_conflicts_variable
 func movement(delta):
