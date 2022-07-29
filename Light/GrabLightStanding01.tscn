@@ -4,9 +4,8 @@
 [ext_resource path="res://textures/PixelArtTextures/Crystals_04_basecolor.tres" type="Material" id=2]
 [ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_basecolor.tres" type="Material" id=3]
 
-[sub_resource type="BoxShape" id=1]
-margin = 0.001
-extents = Vector3( 0.219, 0.625, 0.218 )
+[sub_resource type="ConvexPolygonShape" id=3]
+points = PoolVector3Array( -0.4375, 0, 0.0624816, -0.375018, 0, 0, -0.4375, 0, 0.374976, -0.4375, 1.25, 0.0624816, -0.0625245, 0, 0, -0.375018, 1.25, 0, -0.375018, 0, 0.4375, -0.4375, 1.25, 0.374976, 0, 0, 0.0624816, -0.0625245, 1.25, 0, -0.0625245, 0, 0.4375, -0.375018, 1.25, 0.4375, 0, 0, 0.374976, 0, 1.25, 0.0624816, -0.0625245, 1.25, 0.4375, 0, 1.25, 0.374976 )
 
 [sub_resource type="ArrayMesh" id=2]
 surfaces/0 = {
@@ -41,19 +40,7 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.218014, 0.626218, 0.219036 )
-shape = SubResource( 1 )
-
-[node name="entity_0_mesh_instance" type="MeshInstance" parent="."]
-cast_shadow = 0
-use_in_baked_light = true
-mesh = SubResource( 2 )
-skeleton = NodePath("")
-material/0 = null
-material/1 = null
-
-[node name="OmniLight" type="OmniLight" parent="entity_0_mesh_instance"]
+[node name="OmniLight" type="OmniLight" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2, 0.6, 0.2 )
 light_color = Color( 1, 1, 0.898039, 1 )
 light_energy = 0.314
@@ -62,3 +49,15 @@ light_specular = 0.15
 shadow_enabled = true
 omni_range = 10.0
 omni_attenuation = 1.7411
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2, -0.6, -0.2 )
+shape = SubResource( 3 )
+
+[node name="entity_0_mesh_instance" type="MeshInstance" parent="CollisionShape"]
+cast_shadow = 0
+use_in_baked_light = true
+mesh = SubResource( 2 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
