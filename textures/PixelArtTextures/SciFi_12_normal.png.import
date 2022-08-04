@@ -14,7 +14,7 @@ dest_files=[ "res://.import/SciFi_12_normal.png-8e4b532b18803731b0db784d3886ca91
 
 [params]
 
-compress/mode=3
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
