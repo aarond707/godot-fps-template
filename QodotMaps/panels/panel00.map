@@ -89,7 +89,7 @@
 }
 // brush 9
 {
-( 48 64 16 ) ( 48 -64 16 ) ( 48 64 0 ) PixelArtTextures/SciFi_13_basecolor [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 48 64 16 ) ( 48 -64 16 ) ( 48 64 0 ) PixelArtTextures/MetalPlates_04_basecolor [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 64 -64 0 ) ( 48 -64 0 ) ( 64 -64 16 ) PixelArtTextures/SciFi_13_basecolor [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 64 -60 16 ) ( 192 -64 12 ) ( 64 -64 12 ) PixelArtTextures/SciFi_13_basecolor [ 1 0 0 0 ] [ 0 -0.7071067811865476 -0.7071067811865476 0 ] 0 1 1
 ( 64 64 0 ) ( 48 64 0 ) ( 64 -64 0 ) PixelArtTextures/SciFi_13_basecolor [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
@@ -109,7 +109,7 @@
 ( -64 64 16 ) ( -48 64 16 ) ( -64 -64 16 ) PixelArtTextures/SciFi_13_basecolor [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -64 60 16 ) ( -64 64 12 ) ( 64 64 12 ) PixelArtTextures/SciFi_13_basecolor [ 1 0 0 0 ] [ 0 -0.7071067811865476 0.7071067811865476 0 ] 0 1 1
 ( -64 64 0 ) ( -48 64 0 ) ( -64 64 16 ) PixelArtTextures/SciFi_13_basecolor [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -48 -64 0 ) ( -48 -64 16 ) ( -48 64 0 ) PixelArtTextures/SciFi_13_basecolor [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -48 -64 0 ) ( -48 -64 16 ) ( -48 64 0 ) PixelArtTextures/MetalPlates_04_basecolor [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 // brush 11
 {

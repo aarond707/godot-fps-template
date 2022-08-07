@@ -1,4 +1,4 @@
-[gd_scene load_steps=77 format=2]
+[gd_scene load_steps=76 format=2]
 
 [ext_resource path="res://default_env.tres" type="Environment" id=1]
 [ext_resource path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" type="Resource" id=2]
@@ -19,7 +19,6 @@
 [ext_resource path="res://textures/PixelArtTextures/Metals_15_basecolor.tres" type="Material" id=17]
 [ext_resource path="res://UI/Pause/SFX/select.ogg" type="AudioStream" id=18]
 [ext_resource path="res://textures/PixelArtTextures/Rust_07_BaseColor.tres" type="Material" id=19]
-[ext_resource path="res://Light/GrabLightStanding01.tscn" type="PackedScene" id=20]
 [ext_resource path="res://Music/advent velocity02.mp3" type="AudioStream" id=21]
 [ext_resource path="res://Light/LightFixture00.tscn" type="PackedScene" id=22]
 [ext_resource path="res://Light/LightStanding00.tscn" type="PackedScene" id=23]
@@ -353,7 +352,6 @@ environment = ExtResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 3, 0 )
-LockMouse = false
 DevMode = true
 MouseSensitivity = 5
 
@@ -625,12 +623,6 @@ transform = Transform( 1.91069e-15, -8.74228e-08, 1, 4.37114e-08, -1, -8.74228e-
 [node name="YLightFixture00" parent="MechInterior" instance=ExtResource( 23 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -9 )
 
-[node name="YLightFixture01" parent="MechInterior" instance=ExtResource( 23 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 23.739, 8 )
-
-[node name="Small" parent="MechInterior/YLightFixture01" instance=ExtResource( 20 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, -20, -14 )
-
 [node name="YLightFixture02" parent="MechInterior" instance=ExtResource( 23 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 40, 4 )
 
@@ -641,11 +633,11 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 60, -9 )
 stream = ExtResource( 21 )
 
 [node name="Ladder01" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3, 1, 6 )
-LadderHeight = 10
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.7, 1, -4.5 )
+LadderHeight = 5
 
 [node name="Panel01" parent="." instance=ExtResource( 24 )]
-transform = Transform( 4.37114e-08, -8.74228e-08, -1, -8.74228e-08, 1, -8.74228e-08, 1, 8.74228e-08, 4.37114e-08, -8, 19, 0 )
+transform = Transform( 4.37114e-08, -8.74228e-08, -1, -1, -1.31134e-07, -4.37114e-08, -1.31134e-07, 1, -8.74228e-08, 5, 4, 3.5 )
 
 [connection signal="pressed" from="Menu/Control/VBoxContainer/Button" to="Menu" method="_on_Play_pressed"]
 [connection signal="pressed" from="Menu/Control/VBoxContainer/Button2" to="Menu" method="_on_Settings_pressed"]
