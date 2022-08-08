@@ -14,7 +14,7 @@ dest_files=[ "res://.import/SciFi_12_ambientOcclusion.png-f7b41b66f77da3c47e0b3a
 
 [params]
 
-compress/mode=3
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

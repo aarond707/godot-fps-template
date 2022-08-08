@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/panel00.1.map-1924d2c472afb28a464faef608719afe.tres"
+
+[deps]
+
+source_file="res://QodotMaps/panels/autosave/panel00.1.map"
+dest_files=[ "res://.import/panel00.1.map-1924d2c472afb28a464faef608719afe.tres" ]
+
+[params]
+

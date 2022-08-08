@@ -14,7 +14,7 @@ dest_files=[ "res://.import/SciFi_16_roughness.png-6f59795fd95ef53ded0358efecef5
 
 [params]
 
-compress/mode=3
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
