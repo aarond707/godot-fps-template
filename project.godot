@@ -788,6 +788,11 @@ texture={
 "stream": false,
 "svg/scale": 1.0
 }
+texture_3d={
+"compress/mode": 0,
+"flags/filter": false,
+"flags/repeat": 1
+}
 
 [input]
 
@@ -881,10 +886,10 @@ dialogic_default_action={
 
 [physics]
 
+3d/smooth_trimesh_collision=true
 common/physics_jitter_fix=0.0
 common/enable_pause_aware_picking=true
 3d/default_gravity_vector=Vector3( 0, -4, 0 )
-3d/smooth_trimesh_collision=true
 
 [rendering]
 
