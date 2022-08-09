@@ -788,6 +788,11 @@ texture={
 "stream": false,
 "svg/scale": 1.0
 }
+texture_3d={
+"compress/mode": 0,
+"flags/filter": false,
+"flags/repeat": 1
+}
 
 [input]
 

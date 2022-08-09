@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Rust_05_Displacement.png-84d235ce462998221c2931fa2c2cdb16.stex"
+path="res://.import/industrial_wall_02_s.png-4c141a605971c248f3f97343b45c1eb9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/PixelArtTextures/Rust_05_Displacement.png"
-dest_files=[ "res://.import/Rust_05_Displacement.png-84d235ce462998221c2931fa2c2cdb16.stex" ]
+source_file="res://textures/PixelArtTextures/industrial_wall_02_s.png"
+dest_files=[ "res://.import/industrial_wall_02_s.png-4c141a605971c248f3f97343b45c1eb9.stex" ]
 
 [params]
 
@@ -19,11 +19,11 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=true
+flags/repeat=1
 flags/filter=false
 flags/mipmaps=true
 flags/anisotropic=false
-flags/srgb=2
+flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
