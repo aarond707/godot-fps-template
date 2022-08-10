@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/manny_sitting.gltf-812360a62d40a2333fe2ebbec24991aa.scn"
+path="res://.import/RaySit01-loop.glb-6d45148d7dbb4db1d8b856fd0e155581.scn"
 
 [deps]
 
-source_file="res://NPCs/Manny/manny_sitting.gltf"
-dest_files=[ "res://.import/manny_sitting.gltf-812360a62d40a2333fe2ebbec24991aa.scn" ]
+source_file="res://NPCs/Ray/Resources/RaySit01-loop.glb"
+dest_files=[ "res://.import/RaySit01-loop.glb-6d45148d7dbb4db1d8b856fd0e155581.scn" ]
 
 [params]
 

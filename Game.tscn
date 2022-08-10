@@ -12,9 +12,6 @@ margin_bottom = 720.0
 theme = SubResource( 1 )
 stretch = true
 stretch_shrink = 4
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="Viewport" type="Viewport" parent="."]
 size = Vector2( 320, 180 )
