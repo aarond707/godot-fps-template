@@ -6,7 +6,6 @@
 [ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_height.png" type="Texture" id=4]
 [ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_normal.png" type="Texture" id=5]
 
-
 [resource]
 albedo_color = Color( 0.462745, 0.462745, 0.462745, 1 )
 albedo_texture = ExtResource( 2 )

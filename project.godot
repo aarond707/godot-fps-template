@@ -74,6 +74,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/dialogue_manager/dialogue_resource.gd"
 }, {
+"base": "ToolButton",
+"class": "DragComponent",
+"language": "GDScript",
+"path": "res://addons/open_kanban/system/drag_component.gd"
+}, {
 "base": "Resource",
 "class": "Event",
 "language": "GDScript",
@@ -128,6 +133,21 @@ _global_script_classes=[ {
 "class": "EventWait",
 "language": "GDScript",
 "path": "res://addons/event_system_plugin/events/wait.gd"
+}, {
+"base": "Node",
+"class": "GifDecoder",
+"language": "GDScript",
+"path": "res://addons/GifMaker/GifDecoder.gd"
+}, {
+"base": "Viewport",
+"class": "GifRecorder",
+"language": "GDScript",
+"path": "res://addons/GifMaker/GifRecorder.gd"
+}, {
+"base": "ReferenceRect",
+"class": "GifRectangle",
+"language": "GDScript",
+"path": "res://addons/GifMaker/GifRectangle.gd"
 }, {
 "base": "PanelContainer",
 "class": "HistoryRow",
@@ -449,6 +469,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid.gd"
 }, {
+"base": "Reference",
+"class": "OFS",
+"language": "GDScript",
+"path": "res://addons/open_kanban/system/file.gd"
+}, {
+"base": "Reference",
+"class": "OTS",
+"language": "GDScript",
+"path": "res://addons/open_kanban/system/translation.gd"
+}, {
 "base": "Spatial",
 "class": "OrbitArm",
 "language": "GDScript",
@@ -463,6 +493,11 @@ _global_script_classes=[ {
 "class": "PhysicsEntity",
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/fgd/solid_classes/physics.gd"
+}, {
+"base": "Button",
+"class": "PluginButton",
+"language": "GDScript",
+"path": "res://addons/csgtomeshinstance/plugin_button.gd"
 }, {
 "base": "Reference",
 "class": "QodotDependencies",
@@ -569,6 +604,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/src/import_plugins/quake_wad_import_plugin.gd"
 }, {
+"base": "PanelContainer",
+"class": "Rect",
+"language": "GDScript",
+"path": "res://addons/open_kanban/system/rect/rect.gd"
+}, {
 "base": "Resource",
 "class": "RoomMapConfig",
 "language": "GDScript",
@@ -628,6 +668,7 @@ _global_script_class_icons={
 "DialogicResources": "",
 "DialogicUtil": "",
 "DialogueResource": "",
+"DragComponent": "",
 "Event": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
 "EventCall": "",
 "EventComment": "",
@@ -639,6 +680,9 @@ _global_script_class_icons={
 "EventSet": "",
 "EventShow": "",
 "EventWait": "",
+"GifDecoder": "",
+"GifRecorder": "res://addons/GifMaker/gif.svg",
+"GifRectangle": "res://addons/GifMaker/GifRectangle.svg",
 "HistoryRow": "",
 "InkBase": "",
 "InkBoolValue": "",
@@ -703,9 +747,12 @@ _global_script_class_icons={
 "InkVoid": "",
 "LavaLayer": "",
 "LiquidLayer": "",
+"OFS": "",
+"OTS": "",
 "OrbitArm": "",
 "PhysicsBall": "",
 "PhysicsEntity": "",
+"PluginButton": "",
 "QodotDependencies": "",
 "QodotEntity": "",
 "QodotFGDBaseClass": "",
@@ -727,6 +774,7 @@ _global_script_class_icons={
 "QuakePaletteImportPlugin": "",
 "QuakeWadFile": "",
 "QuakeWadImportPlugin": "",
+"Rect": "",
 "RoomMapConfig": "",
 "SlimeLayer": "",
 "Timeline": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
@@ -763,7 +811,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/qodot/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/AsepriteWizard/plugin.cfg", "res://addons/csgtomeshinstance/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/open_kanban/plugin.cfg", "res://addons/qodot/plugin.cfg" )
 
 [importer_defaults]
 

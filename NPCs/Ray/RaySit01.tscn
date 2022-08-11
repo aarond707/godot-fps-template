@@ -564,6 +564,7 @@ transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 transform = Transform( 0.01, 0, 0, 0, -1.19209e-09, -0.01, 0, 0.01, -1.19209e-09, 0, 0, 0 )
 
 [node name="Skeleton" type="Skeleton" parent="Armature"]
+transform = Transform( 1, 0, 0, 0, 1, -1.42109e-14, 0, 1.42109e-14, 1, 0, 0, 0 )
 bones/0/name = "mixamorig_Hips"
 bones/0/parent = -1
 bones/0/rest = Transform( 0.99912, -0.0287507, -0.0305251, 0.0253769, -0.164951, 0.985975, -0.0333826, -0.985883, -0.164077, 0.14342, 3.94013, -54.3253 )

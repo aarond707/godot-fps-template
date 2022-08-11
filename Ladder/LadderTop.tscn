@@ -81,7 +81,6 @@ shape = SubResource( 5 )
 visible = false
 mesh = SubResource( 2 )
 skeleton = NodePath("../..")
-material/0 = null
 
 [node name="QodotMap" type="Spatial" parent="."]
 script = ExtResource( 3 )
@@ -107,7 +106,6 @@ set_owner_batch_size = 16
 [node name="entity_0_mesh_instance" type="MeshInstance" parent="QodotMap/entity_0_worldspawn"]
 use_in_baked_light = true
 mesh = SubResource( 7 )
-material/0 = null
 
 [node name="entity_0_brush_0_collision_shape" type="CollisionShape" parent="QodotMap/entity_0_worldspawn"]
 shape = SubResource( 8 )

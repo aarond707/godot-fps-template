@@ -1,11 +1,112 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Rigidbodies/RigidBodyReset.gd" type="Script" id=1]
-[ext_resource path="res://textures/PixelArtTextures/Crystals_04_basecolor.tres" type="Material" id=2]
-[ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_basecolor.tres" type="Material" id=3]
+[ext_resource path="res://textures/PixelArtTextures/Crystals_04_normal.png" type="Texture" id=2]
+[ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_basecolor.png" type="Texture" id=3]
+[ext_resource path="res://textures/PixelArtTextures/Crystals_04_basecolor.png" type="Texture" id=4]
+[ext_resource path="res://textures/PixelArtTextures/Crystals_04_emissive.png" type="Texture" id=5]
+[ext_resource path="res://textures/PixelArtTextures/Crystals_04_roughness.png" type="Texture" id=6]
+[ext_resource path="res://textures/PixelArtTextures/Crystals_04_height.png" type="Texture" id=7]
+[ext_resource path="res://textures/PixelArtTextures/Crystals_04_ambientocclusion.png" type="Texture" id=8]
+[ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_height.png" type="Texture" id=9]
+[ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_normal.png" type="Texture" id=10]
+[ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_metallic.png" type="Texture" id=11]
+[ext_resource path="res://textures/PixelArtTextures/MetalPlates_04_roughness.png" type="Texture" id=12]
 
 [sub_resource type="ConvexPolygonShape" id=3]
 points = PoolVector3Array( -0.4375, 0, 0.0624816, -0.375018, 0, 0, -0.4375, 0, 0.374976, -0.4375, 1.25, 0.0624816, -0.0625245, 0, 0, -0.375018, 1.25, 0, -0.375018, 0, 0.4375, -0.4375, 1.25, 0.374976, 0, 0, 0.0624816, -0.0625245, 1.25, 0, -0.0625245, 0, 0.4375, -0.375018, 1.25, 0.4375, 0, 0, 0.374976, 0, 1.25, 0.0624816, -0.0625245, 1.25, 0.4375, 0, 1.25, 0.374976 )
+
+[sub_resource type="Shader" id=4]
+code = "shader_type spatial;
+render_mode unshaded, depth_draw_never;
+
+uniform vec4 shine_color : hint_color = vec4( 1.0, 1.0, 1.0, 1.0 );
+uniform float cycle_interval : hint_range(0.5, 5.0) = .5;
+uniform float shine_speed : hint_range(1.0, 5.0) = 3.0;
+uniform float shine_width : hint_range(1.0, 100.0) = 3.0;
+
+void fragment( )
+{
+	vec3 vertex = ( CAMERA_MATRIX * vec4( VERTEX, 1.0 ) ).xyz;
+	float width = shine_width * 0.001 * cycle_interval;
+	float frequency = floor( sin( vertex.z * cycle_interval + TIME * shine_speed * cycle_interval ) + width );
+	ALBEDO = shine_color.rgb;
+	ALPHA = clamp( ( 1.0 - dot( NORMAL, VIEW ) ) * frequency * shine_color.a, 0.0, 1.0 );
+}"
+
+[sub_resource type="ShaderMaterial" id=5]
+shader = SubResource( 4 )
+shader_param/shine_color = Color( 1, 1, 1, 1 )
+shader_param/cycle_interval = 0.5
+shader_param/shine_speed = 3.0
+shader_param/shine_width = 3.0
+
+[sub_resource type="SpatialMaterial" id=6]
+next_pass = SubResource( 5 )
+albedo_texture = ExtResource( 4 )
+roughness_texture = ExtResource( 6 )
+emission_enabled = true
+emission = Color( 0, 0, 0, 1 )
+emission_energy = 1.0
+emission_operator = 0
+emission_on_uv2 = false
+emission_texture = ExtResource( 5 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 2 )
+ao_enabled = true
+ao_light_affect = 0.5
+ao_texture = ExtResource( 8 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+depth_enabled = true
+depth_scale = 0.104
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 7 )
+
+[sub_resource type="Shader" id=7]
+code = "shader_type spatial;
+render_mode unshaded, depth_draw_never;
+
+uniform vec4 shine_color : hint_color = vec4( 1.0, 1.0, 1.0, 1.0 );
+uniform float cycle_interval : hint_range(0.5, 5.0) = 0.5;
+uniform float shine_speed : hint_range(1.0, 5.0) = 3.0;
+uniform float shine_width : hint_range(1.0, 100.0) = 3.0;
+
+void fragment( )
+{
+	vec3 vertex = ( CAMERA_MATRIX * vec4( VERTEX, 1.0 ) ).xyz;
+	float width = shine_width * 0.001 * cycle_interval;
+	float frequency = floor( sin( vertex.z * cycle_interval + TIME * shine_speed * cycle_interval ) + width );
+	ALBEDO = shine_color.rgb;
+	ALPHA = clamp( ( 1.0 - dot( NORMAL, VIEW ) ) * frequency * shine_color.a, 0.0, 1.0 );
+}"
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = SubResource( 7 )
+shader_param/shine_color = Color( 1, 1, 1, 1 )
+shader_param/cycle_interval = 0.5
+shader_param/shine_speed = 3.0
+shader_param/shine_width = 3.0
+
+[sub_resource type="SpatialMaterial" id=9]
+next_pass = SubResource( 8 )
+albedo_color = Color( 0.462745, 0.462745, 0.462745, 1 )
+albedo_texture = ExtResource( 3 )
+metallic = 1.0
+metallic_texture = ExtResource( 11 )
+roughness_texture = ExtResource( 12 )
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 10 )
+depth_enabled = true
+depth_scale = 0.05
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 9 )
 
 [sub_resource type="ArrayMesh" id=2]
 surfaces/0 = {
@@ -15,7 +116,7 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 2194711,
 "index_count": 324,
-"material": ExtResource( 2 ),
+"material": SubResource( 6 ),
 "primitive": 4,
 "skeleton_aabb": [  ],
 "vertex_count": 216
@@ -27,7 +128,7 @@ surfaces/1 = {
 "blend_shape_data": [  ],
 "format": 2194711,
 "index_count": 168,
-"material": ExtResource( 3 ),
+"material": SubResource( 9 ),
 "primitive": 4,
 "skeleton_aabb": [  ],
 "vertex_count": 96
@@ -59,5 +160,3 @@ cast_shadow = 0
 use_in_baked_light = true
 mesh = SubResource( 2 )
 skeleton = NodePath("../..")
-material/0 = null
-material/1 = null
