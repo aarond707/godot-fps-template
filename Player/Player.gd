@@ -443,7 +443,7 @@ func movement(delta):
 		# cap the landing autio to not blow out anyone's ears when landing from a skyscraper,
 			$LandAudio.volume_db = clamp($LandAudio.volume_db,-30,5)
 		# and play the landing audio.
-			$LandAudio.play()
+			#$LandAudio.play()
 	# reset all jumps that were previously done when touching the ground.
 		jumpCount = 0
 
@@ -742,3 +742,7 @@ func _on_WalkAudioTimer_timeout() -> void:
 	walkAudio = true
 func _on_ClimbAudioTimer_timeout() -> void:
 	climbAudio = true
+
+
+func _on_DialogTriggerArea_area_entered(area):
+	pass # Replace with function body.

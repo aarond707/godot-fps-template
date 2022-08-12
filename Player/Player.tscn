@@ -97,9 +97,6 @@ shape = SubResource( 3 )
 [node name="Head" type="Spatial" parent="."]
 transform = Transform( 0.9375, 0, 0, 0, 0.9375, -1.16415e-10, 0, 1.16415e-10, 0.9375, 0, 1.00625, 2.32831e-10 )
 
-[node name="Viewport" type="Viewport" parent="Head"]
-size = Vector2( 640, 360 )
-
 [node name="Camera" type="Camera" parent="Head"]
 far = 500.0
 

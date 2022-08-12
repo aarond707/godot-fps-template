@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "title": "Task",
+      "color": "6495ed"
+    }
+  ],
+  "columns": [
+    {
+      "stages": [
+        0
+      ]
+    },
+    {
+      "stages": [
+        1
+      ]
+    },
+    {
+      "stages": [
+        2
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "title": "Todo",
+      "tasks": [
+        2,
+        4
+      ]
+    },
+    {
+      "title": "Doing",
+      "tasks": [
+        0
+      ]
+    },
+    {
+      "title": "Done",
+      "tasks": [
+        1,
+        3
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "category": 0,
+      "title": "NPC Detection Zone Triggers Dialog",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "Fix Repeating Sound Glitch",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "$LandAudio.play() being disabled in player.gd fixed sound glitch. fix this code.",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "dialog size is getting usable",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "switch dialog instance on and off",
+      "details": ""
+    }
+  ]
+}
