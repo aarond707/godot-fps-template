@@ -744,5 +744,3 @@ func _on_ClimbAudioTimer_timeout() -> void:
 	climbAudio = true
 
 
-func _on_DialogTriggerArea_area_entered(area):
-	pass # Replace with function body.

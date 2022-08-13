@@ -168,7 +168,6 @@ shape = SubResource( 29 )
 [node name="ButtonHull" type="MeshInstance" parent="."]
 mesh = SubResource( 1 )
 skeleton = NodePath("../..")
-material/0 = null
 
 [node name="ButtonMesh" type="MeshInstance" parent="ButtonHull"]
 mesh = SubResource( 2 )
