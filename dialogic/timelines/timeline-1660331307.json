@@ -24,7 +24,13 @@
 			"character": "character-1658538834.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hello world"
+			"text": "The name's Tracing."
+		},
+		{
+			"character": "character-1658538834.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ray Tracing."
 		}
 	],
 	"metadata": {
