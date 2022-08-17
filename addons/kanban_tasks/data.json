@@ -26,30 +26,26 @@
     {
       "title": "Todo",
       "tasks": [
-        2,
+        1,
         4
       ]
     },
     {
       "title": "Doing",
       "tasks": [
-        0
+
       ]
     },
     {
       "title": "Done",
       "tasks": [
-        1,
+        0,
+        2,
         3
       ]
     }
   ],
   "tasks": [
-    {
-      "category": 0,
-      "title": "NPC Detection Zone Triggers Dialog",
-      "details": ""
-    },
     {
       "category": 0,
       "title": "Fix Repeating Sound Glitch",
@@ -68,6 +64,11 @@
     {
       "category": 0,
       "title": "switch dialog instance on and off",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "change dialog activation to a click on the NPC rather than on the button",
       "details": ""
     }
   ]

@@ -1,5 +1,5 @@
 {
-	"color": "#ffffffff",
+	"color": "#ffff0000",
 	"description": "",
 	"display_name": "Ray",
 	"display_name_bool": true,
@@ -8,14 +8,14 @@
 	"name": "Ray.json",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": -138,
+	"offset_y": -60,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://Portraits/ray00.png"
 		}
 	],
-	"scale": 100,
-	"theme": ""
+	"scale": 25,
+	"theme": "default-theme.cfg"
 }

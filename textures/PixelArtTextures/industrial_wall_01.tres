@@ -6,11 +6,12 @@
 [ext_resource path="res://textures/PixelArtTextures/industrial_wall_01_o.png" type="Texture" id=4]
 
 [sub_resource type="OpenSimplexNoise" id=1]
+octaves = 6
 
 [sub_resource type="NoiseTexture" id=2]
 flags = 3
-width = 128
-height = 128
+width = 64
+height = 64
 seamless = true
 noise = SubResource( 1 )
 
@@ -23,13 +24,15 @@ normal_enabled = true
 normal_scale = 1.0
 normal_texture = ExtResource( 2 )
 ao_enabled = true
-ao_light_affect = 0.22
+ao_light_affect = 0.75
 ao_texture = ExtResource( 4 )
 ao_on_uv2 = false
 ao_texture_channel = 0
 depth_enabled = true
 depth_scale = -0.05
-depth_deep_parallax = false
+depth_deep_parallax = true
+depth_min_layers = 8
+depth_max_layers = 32
 depth_flip_tangent = false
 depth_flip_binormal = false
 depth_texture = ExtResource( 4 )

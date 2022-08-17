@@ -1,8 +1,8 @@
 {
 	"events": [
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.5,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1658538834.json",
@@ -11,9 +11,9 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
-				"2": false,
+				"2": true,
 				"3": false,
 				"4": false
 			},
@@ -21,16 +21,83 @@
 			"z_index": 0
 		},
 		{
+			"condition": "==",
+			"definition": "1660683569-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
 			"character": "character-1658538834.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "The name's Tracing."
+			"text": "My name's Tracing."
 		},
 		{
 			"character": "character-1658538834.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Ray Tracing."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1660683569-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1658538834.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nothing? That's alright."
+		},
+		{
+			"character": "character-1658538834.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Long as I make myself chuckle, I suppose."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1660683569-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1658538834.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can be my own captive audience."
+		},
+		{
+			"character": "character-1658538834.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gotta be."
+		},
+		{
+			"definition": "1660683569-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1660683569-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		}
 	],
 	"metadata": {

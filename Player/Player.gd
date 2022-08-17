@@ -130,6 +130,7 @@ onready var WalkAudioFiles = $RandomWalk.AudioFiles
 onready var ClimbAudioFiles = $RandomClimb.AudioFiles
 
 # The signal sent when you interact with anything. It also sends the item currently held if there's any.
+# this is the holy grail to dialog interaction, FYI
 signal interact(node,item)
 # Let go of something you are currently interacting.
 signal letGo(node)
