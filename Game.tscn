@@ -951,7 +951,7 @@ script = ExtResource( 3 )
 [node name="RaySit01" parent="Viewport/World/Ray" instance=ExtResource( 18 )]
 
 [node name="Button" parent="Viewport/World/Ray" instance=ExtResource( 32 )]
-transform = Transform( -1.96701e-08, -0.45, 0, 0.45, -1.96701e-08, 0, 0, 0, 0.45, -1.33911, 0, 0 )
+transform = Transform( -1.96701e-08, -0.45, 0, 0.45, -1.96701e-08, 0, 0, 0, 0.45, -1.60424, 0, 0 )
 
 [node name="CSGBox" type="CSGBox" parent="Viewport/World"]
 transform = Transform( 0.36, 0, 0, 0, 0.36, 0, 0, 0, 0.36, 0, 0.4, -6.9 )

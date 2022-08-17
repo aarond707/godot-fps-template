@@ -1,7 +1,7 @@
 tool
 class_name DialogicUtil
 
-## This class is used by the DialogicEditor
+## This class is used by the DialogicEditors
 ## For example by the Editors (Timeline, Character, Theme), the MasterTree and the EventParts
 
 static func list_to_dict(list):
