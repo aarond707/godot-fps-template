@@ -27,13 +27,14 @@
       "title": "Todo",
       "tasks": [
         1,
-        4
+        6,
+        7
       ]
     },
     {
       "title": "Doing",
       "tasks": [
-        5
+
       ]
     },
     {
@@ -41,7 +42,9 @@
       "tasks": [
         0,
         2,
-        3
+        3,
+        5,
+        4
       ]
     }
   ],
@@ -74,6 +77,16 @@
     {
       "category": 0,
       "title": "show jordan godot",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "remove button",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "make the dialog not overwrite itself",
       "details": ""
     }
   ]

@@ -957,6 +957,7 @@ transform = Transform( -1.96701e-08, -0.45, 0, 0.45, -1.96701e-08, 0, 0, 0, 0.45
 transform = Transform( 0.36, 0, 0, 0, 0.36, 0, 0, 0, 0.36, 0, 0.4, -6.9 )
 material = ExtResource( 31 )
 
+[connection signal="interact" from="Viewport/World/Player" to="Viewport/World/Ray" method="_on_Player_interact"]
 [connection signal="pressed" from="Viewport/World/Menu/Control/VBoxContainer/Button" to="Viewport/World/Menu" method="_on_Play_pressed"]
 [connection signal="pressed" from="Viewport/World/Menu/Control/VBoxContainer/Button2" to="Viewport/World/Menu" method="_on_Settings_pressed"]
 [connection signal="pressed" from="Viewport/World/Menu/Control/VBoxContainer/Button3" to="Viewport/World/Menu" method="Credits"]

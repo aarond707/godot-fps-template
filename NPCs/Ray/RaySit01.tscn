@@ -823,9 +823,9 @@ skin = SubResource( 2 )
 autoplay = "Armature|mixamocom|Layer0"
 anims/Armature|mixamocom|Layer0 = SubResource( 3 )
 
-[node name="StaticBody" type="StaticBody" parent="."]
+[node name="RayStaticBody" type="StaticBody" parent="."]
 collision_layer = 5
 
-[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+[node name="CollisionShape" type="CollisionShape" parent="RayStaticBody"]
 transform = Transform( 0.639611, 0, 0, 0, 0.639611, 0, 0, 0, 0.639611, 0, 0.97482, 0.25 )
 shape = SubResource( 4 )
