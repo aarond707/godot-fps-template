@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"emit_signal": "start",
+			"event_id": "dialogic_040"
+		},
+		{
 			"animation": "1-fade_in.gd",
 			"animation_length": 0.5,
 			"change_mirror_portrait": false,
@@ -98,6 +102,10 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
 		}
 	],
 	"metadata": {

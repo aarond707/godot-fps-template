@@ -3,6 +3,10 @@
     {
       "title": "Task",
       "color": "6495ed"
+    },
+    {
+      "title": "Sub-task",
+      "color": "07b421"
     }
   ],
   "columns": [
@@ -27,14 +31,14 @@
       "title": "Todo",
       "tasks": [
         1,
-        6,
-        7
+        6
       ]
     },
     {
       "title": "Doing",
       "tasks": [
-
+        7,
+        8
       ]
     },
     {
@@ -87,6 +91,11 @@
     {
       "category": 0,
       "title": "make the dialog not overwrite itself",
+      "details": ""
+    },
+    {
+      "category": 1,
+      "title": "fix whatever I did with the redundant signal. seems dialogic has signals that already do what I want",
       "details": ""
     }
   ]
