@@ -31,7 +31,8 @@
       "title": "Todo",
       "tasks": [
         1,
-        5
+        5,
+        8
       ]
     },
     {
@@ -90,6 +91,11 @@
     {
       "category": 1,
       "title": "fix whatever I did with the redundant signal. seems dialogic has signals that already do what I want",
+      "details": ""
+    },
+    {
+      "category": 0,
+      "title": "remake custom industrial materials",
       "details": ""
     }
   ]
