@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ESM_Machine_Chatter_1_Sci_Fi_Machine_Hum_Texture_Abstract_Tech.ogg-4a7e8ccd4f48eda97f561f044954192c.oggstr"
+
+[deps]
+
+source_file="res://sfx/machine_foley/ESM_Machine_Chatter_1_Sci_Fi_Machine_Hum_Texture_Abstract_Tech.ogg"
+dest_files=[ "res://.import/ESM_Machine_Chatter_1_Sci_Fi_Machine_Hum_Texture_Abstract_Tech.ogg-4a7e8ccd4f48eda97f561f044954192c.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

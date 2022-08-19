@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ESM_Bubbly_Water_Pressure_Release_1_Bathroom_Plumbing_Squirt_Hiss_.ogg-4434abb0c553238811fbc46b7006951e.oggstr"
+
+[deps]
+
+source_file="res://sfx/machine_foley/ESM_Bubbly_Water_Pressure_Release_1_Bathroom_Plumbing_Squirt_Hiss_.ogg"
+dest_files=[ "res://.import/ESM_Bubbly_Water_Pressure_Release_1_Bathroom_Plumbing_Squirt_Hiss_.ogg-4434abb0c553238811fbc46b7006951e.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

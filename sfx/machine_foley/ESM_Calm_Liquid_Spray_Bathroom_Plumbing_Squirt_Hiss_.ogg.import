@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ESM_Calm_Liquid_Spray_Bathroom_Plumbing_Squirt_Hiss_.ogg-73e29c3d761aa829975ce0c2cf3f0dcb.oggstr"
+
+[deps]
+
+source_file="res://sfx/machine_foley/ESM_Calm_Liquid_Spray_Bathroom_Plumbing_Squirt_Hiss_.ogg"
+dest_files=[ "res://.import/ESM_Calm_Liquid_Spray_Bathroom_Plumbing_Squirt_Hiss_.ogg-73e29c3d761aa829975ce0c2cf3f0dcb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

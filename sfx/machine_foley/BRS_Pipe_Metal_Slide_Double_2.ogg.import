@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BRS_Pipe_Metal_Slide_Double_2.ogg-c3b5583ad119c97be884c93ed55bba72.oggstr"
+
+[deps]
+
+source_file="res://sfx/machine_foley/BRS_Pipe_Metal_Slide_Double_2.ogg"
+dest_files=[ "res://.import/BRS_Pipe_Metal_Slide_Double_2.ogg-c3b5583ad119c97be884c93ed55bba72.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

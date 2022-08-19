@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BRS_Blood_Machine_Motor_Back-Forth.ogg-2c254cf1e9f7c5b12aef69e32b133be9.oggstr"
+
+[deps]
+
+source_file="res://sfx/machine_foley/BRS_Blood_Machine_Motor_Back-Forth.ogg"
+dest_files=[ "res://.import/BRS_Blood_Machine_Motor_Back-Forth.ogg-2c254cf1e9f7c5b12aef69e32b133be9.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
