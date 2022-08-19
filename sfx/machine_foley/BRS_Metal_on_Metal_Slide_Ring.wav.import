@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BRS_Metal_on_Metal_Slide_Ring.wav-ee3ed16a943673d5b74804957da3751c.sample"
+
+[deps]
+
+source_file="res://sfx/machine_foley/BRS_Metal_on_Metal_Slide_Ring.wav"
+dest_files=[ "res://.import/BRS_Metal_on_Metal_Slide_Ring.wav-ee3ed16a943673d5b74804957da3751c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

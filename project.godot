@@ -614,6 +614,21 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/world_edtior/resource/RoomMapConfig.gd"
 }, {
+"base": "Reference",
+"class": "SfxrGenerator",
+"language": "GDScript",
+"path": "res://addons/godot_sfxr/SfxrGenerator.gd"
+}, {
+"base": "Object",
+"class": "SfxrGlobals",
+"language": "GDScript",
+"path": "res://addons/godot_sfxr/SfxrGlobals.gd"
+}, {
+"base": "Object",
+"class": "SfxrStreamPlayerInterface",
+"language": "GDScript",
+"path": "res://addons/godot_sfxr/SfxrStreamPlayerInterface.gd"
+}, {
 "base": "LiquidLayer",
 "class": "SlimeLayer",
 "language": "GDScript",
@@ -776,6 +791,9 @@ _global_script_class_icons={
 "QuakeWadImportPlugin": "",
 "Rect": "",
 "RoomMapConfig": "",
+"SfxrGenerator": "",
+"SfxrGlobals": "",
+"SfxrStreamPlayerInterface": "",
 "SlimeLayer": "",
 "Timeline": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
 "TrenchBroomFaceAttrib": "",
@@ -798,7 +816,7 @@ default_bus_layout="res://Deprecated/default_bus_layout.tres"
 [autoload]
 
 Global="*res://Global.gd"
-Pause="*res://UI/Pause/Pause.tscn"
+Pause="*res://ui/Pause/Pause.tscn"
 GameState="*res://Scripts/game_state.gd"
 
 [display]
@@ -811,7 +829,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/AsepriteWizard/plugin.cfg", "res://addons/csgtomeshinstance/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/gdfxr/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/qodot/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/AsepriteWizard/plugin.cfg", "res://addons/csgtomeshinstance/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/qodot/plugin.cfg" )
 
 [importer_defaults]
 

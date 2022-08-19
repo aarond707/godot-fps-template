@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BRS_Data_Whine_Computer_Steady.wav-19e7bf883b091ce6adc1e6ace2312d6f.sample"
+
+[deps]
+
+source_file="res://sfx/machine_foley/BRS_Data_Whine_Computer_Steady.wav"
+dest_files=[ "res://.import/BRS_Data_Whine_Computer_Steady.wav-19e7bf883b091ce6adc1e6ace2312d6f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

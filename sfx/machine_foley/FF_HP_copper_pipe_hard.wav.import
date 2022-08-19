@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FF_HP_copper_pipe_hard.wav-a73301dc5b55391e2815280580818083.sample"
+
+[deps]
+
+source_file="res://sfx/machine_foley/FF_HP_copper_pipe_hard.wav"
+dest_files=[ "res://.import/FF_HP_copper_pipe_hard.wav-a73301dc5b55391e2815280580818083.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
