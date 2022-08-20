@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/BRS_Blood_Machine_Motor_Back-Forth.ogg-2c254cf1e9f7c5b12aef69e32b133be9.oggstr"
+path="res://.import/BRS_Blood_Machine_Motor_Back-Forth.ogg-e84f83eab773e9a4239df0b54eeef024.oggstr"
 
 [deps]
 
-source_file="res://sfx/machine_foley/BRS_Blood_Machine_Motor_Back-Forth.ogg"
-dest_files=[ "res://.import/BRS_Blood_Machine_Motor_Back-Forth.ogg-2c254cf1e9f7c5b12aef69e32b133be9.oggstr" ]
+source_file="res://SFX/machine_foley/BRS_Blood_Machine_Motor_Back-Forth.ogg"
+dest_files=[ "res://.import/BRS_Blood_Machine_Motor_Back-Forth.ogg-e84f83eab773e9a4239df0b54eeef024.oggstr" ]
 
 [params]
 
