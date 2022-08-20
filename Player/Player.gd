@@ -291,6 +291,9 @@ func _physics_process(delta: float) -> void:
 	cameraInput.x = Input.get_action_strength("look_right") - Input.get_action_strength("look_left")
 	cameraInput.y = Input.get_action_strength("look_down") - Input.get_action_strength("look_up")
 	
+	if $Head/RayCast.get_collider():
+		pass
+	
 # MOVEMENT SYSTEM ----------------------------------------------------------------------------
 # warning-ignore:function_conflicts_variable
 func movement(delta):
