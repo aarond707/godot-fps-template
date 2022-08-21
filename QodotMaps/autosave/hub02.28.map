@@ -21,7 +21,7 @@
 ( -256 96 -32 ) ( -255 96 -32 ) ( -256 97 -32 ) PixelArtTextures/Metals_17_basecolor [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -112 256 0 ) ( -112 257 0 ) ( -111 256 0 ) PixelArtTextures/Metals_17_basecolor [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -112 256 0 ) ( -111 256 0 ) ( -112 256 1 ) PixelArtTextures/Metals_17_basecolor [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( 320 256 0 ) ( 320 256 1 ) ( 320 257 0 ) PixelArtTextures/Metals_17_basecolor [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 198 256 0 ) ( 198 256 1 ) ( 198 257 0 ) PixelArtTextures/Metals_17_basecolor [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 // brush 2
 {
