@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/BRS_Drill_Mech_No_Bit_Dying.ogg-0b2499583bf8b4019ea79357defc1cc7.oggstr"
+path="res://.import/BRS_Drill_Mech_No_Bit_Dying.ogg-5b631c796aad35311cce9c8830b812ad.oggstr"
 
 [deps]
 
-source_file="res://SFX/machine_foley/BRS_Drill_Mech_No_Bit_Dying.ogg"
-dest_files=[ "res://.import/BRS_Drill_Mech_No_Bit_Dying.ogg-0b2499583bf8b4019ea79357defc1cc7.oggstr" ]
+source_file="res://sfx/machine_foley/BRS_Drill_Mech_No_Bit_Dying.ogg"
+dest_files=[ "res://.import/BRS_Drill_Mech_No_Bit_Dying.ogg-5b631c796aad35311cce9c8830b812ad.oggstr" ]
 
 [params]
 
