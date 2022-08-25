@@ -7,6 +7,10 @@
     {
       "title": "Sub-task",
       "color": "07b421"
+    },
+    {
+      "title": "Notes",
+      "color": "ffffff"
     }
   ],
   "columns": [
@@ -23,6 +27,11 @@
     {
       "stages": [
         2
+      ]
+    },
+    {
+      "stages": [
+        3
       ]
     }
   ],
@@ -50,6 +59,12 @@
         2,
         3,
         4
+      ]
+    },
+    {
+      "title": "Notes",
+      "tasks": [
+        10
       ]
     }
   ],
@@ -103,6 +118,11 @@
       "category": 0,
       "title": "make the crosshair spin and pulse when pointing at something or someone interactable",
       "details": ""
+    },
+    {
+      "category": 2,
+      "title": "signal drama",
+      "details": "having a lot of trouble grokking signals. there are a few signals built in to dialogic that are supposed to indicate when a timeline has started and ended that I want to use for controlling whether or not the player can create new dialogic instances, but for whatever reason they're not connecting"
     }
   ]
 }
