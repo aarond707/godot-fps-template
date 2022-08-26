@@ -126,8 +126,13 @@ var cameraInput = Vector2()
 # The interpolated mouse movemement of the player.
 var rotationVelocity = Vector2()
 # The walking and climbing sound effect files.
+
 onready var WalkAudioFiles = $RandomWalk.AudioFiles
 onready var ClimbAudioFiles = $RandomClimb.AudioFiles
+
+# boolean for tracking whether the player is looking at something that can be
+# interacted with or not
+var lookingAtInteractable = false
 
 # The signal sent when you interact with anything. It also sends the item currently held if there's any.
 # this is the holy grail to dialog interaction, FYI
@@ -290,6 +295,9 @@ func _physics_process(delta: float) -> void:
 	
 	cameraInput.x = Input.get_action_strength("look_right") - Input.get_action_strength("look_left")
 	cameraInput.y = Input.get_action_strength("look_down") - Input.get_action_strength("look_up")
+	
+	if $Head/RayCast.get_collider():
+		pass
 	
 # MOVEMENT SYSTEM ----------------------------------------------------------------------------
 # warning-ignore:function_conflicts_variable
