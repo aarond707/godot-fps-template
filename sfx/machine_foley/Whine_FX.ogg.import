@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/Whine_FX.ogg-3b5bc24b0e30ca58added397b7361942.oggstr"
+path="res://.import/Whine_FX.ogg-238a61dd45ad2da4562dec437dc1650c.oggstr"
 
 [deps]
 
-source_file="res://SFX/machine_foley/Whine_FX.ogg"
-dest_files=[ "res://.import/Whine_FX.ogg-3b5bc24b0e30ca58added397b7361942.oggstr" ]
+source_file="res://sfx/machine_foley/Whine_FX.ogg"
+dest_files=[ "res://.import/Whine_FX.ogg-238a61dd45ad2da4562dec437dc1650c.oggstr" ]
 
 [params]
 

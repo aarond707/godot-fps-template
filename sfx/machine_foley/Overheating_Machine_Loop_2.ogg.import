@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/Overheating_Machine_Loop_2.ogg-f995c3c48c0c2dd59fd25196fc885372.oggstr"
+path="res://.import/Overheating_Machine_Loop_2.ogg-c44320bddc358d8e2bf86d7910413c79.oggstr"
 
 [deps]
 
-source_file="res://SFX/machine_foley/Overheating_Machine_Loop_2.ogg"
-dest_files=[ "res://.import/Overheating_Machine_Loop_2.ogg-f995c3c48c0c2dd59fd25196fc885372.oggstr" ]
+source_file="res://sfx/machine_foley/Overheating_Machine_Loop_2.ogg"
+dest_files=[ "res://.import/Overheating_Machine_Loop_2.ogg-c44320bddc358d8e2bf86d7910413c79.oggstr" ]
 
 [params]
 

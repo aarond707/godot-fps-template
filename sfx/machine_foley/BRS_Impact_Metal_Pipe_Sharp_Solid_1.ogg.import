@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/BRS_Impact_Metal_Pipe_Sharp_Solid_1.ogg-eee317745a61973f6b505fa52f79e91c.oggstr"
+path="res://.import/BRS_Impact_Metal_Pipe_Sharp_Solid_1.ogg-2723f6775cb336b2de5f752969c8acc3.oggstr"
 
 [deps]
 
-source_file="res://SFX/machine_foley/BRS_Impact_Metal_Pipe_Sharp_Solid_1.ogg"
-dest_files=[ "res://.import/BRS_Impact_Metal_Pipe_Sharp_Solid_1.ogg-eee317745a61973f6b505fa52f79e91c.oggstr" ]
+source_file="res://sfx/machine_foley/BRS_Impact_Metal_Pipe_Sharp_Solid_1.ogg"
+dest_files=[ "res://.import/BRS_Impact_Metal_Pipe_Sharp_Solid_1.ogg-2723f6775cb336b2de5f752969c8acc3.oggstr" ]
 
 [params]
 
