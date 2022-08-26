@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/aat_syn125_whine_D.ogg-a87c546c9b7032db2fa7bf9f61ffddaf.oggstr"
+path="res://.import/aat_syn125_whine_D.ogg-848541375e74a62c2dad90df74d924f1.oggstr"
 
 [deps]
 
-source_file="res://SFX/machine_foley/aat_syn125_whine_D.ogg"
-dest_files=[ "res://.import/aat_syn125_whine_D.ogg-a87c546c9b7032db2fa7bf9f61ffddaf.oggstr" ]
+source_file="res://sfx/machine_foley/aat_syn125_whine_D.ogg"
+dest_files=[ "res://.import/aat_syn125_whine_D.ogg-848541375e74a62c2dad90df74d924f1.oggstr" ]
 
 [params]
 

@@ -494,11 +494,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/open_kanban/system/translation.gd"
 }, {
-"base": "Resource",
-"class": "Objects",
-"language": "GDScript",
-"path": "res://Database/classes/Objects.gd"
-}, {
 "base": "Spatial",
 "class": "OrbitArm",
 "language": "GDScript",
@@ -792,7 +787,6 @@ _global_script_class_icons={
 "Locations": "",
 "OFS": "",
 "OTS": "",
-"Objects": "",
 "OrbitArm": "",
 "PhysicsBall": "",
 "PhysicsEntity": "",
