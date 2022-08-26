@@ -644,6 +644,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/godot_sfxr/SfxrStreamPlayerInterface.gd"
 }, {
+"base": "World",
+"class": "Shelter",
+"language": "GDScript",
+"path": "res://gridlessDB_data/Database/classes/Shelter.gd"
+}, {
 "base": "LiquidLayer",
 "class": "SlimeLayer",
 "language": "GDScript",
@@ -817,6 +822,7 @@ _global_script_class_icons={
 "SfxrGenerator": "",
 "SfxrGlobals": "",
 "SfxrStreamPlayerInterface": "",
+"Shelter": "",
 "SlimeLayer": "",
 "Timeline": "res://addons/event_system_plugin/assets/icons/timeline_icon.png",
 "TrenchBroomFaceAttrib": "",
