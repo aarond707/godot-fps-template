@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/ff_tt_136_drum_loop_plumbing_snare.ogg-260a7607ef205c798d95e2abee3f8fcb.oggstr"
+path="res://.import/ff_tt_136_drum_loop_plumbing_snare.ogg-8aa877f8eed8cf27277bafb76921aa9b.oggstr"
 
 [deps]
 
-source_file="res://sfx/machine_foley/ff_tt_136_drum_loop_plumbing_snare.ogg"
-dest_files=[ "res://.import/ff_tt_136_drum_loop_plumbing_snare.ogg-260a7607ef205c798d95e2abee3f8fcb.oggstr" ]
+source_file="res://SFX/machine_foley/ff_tt_136_drum_loop_plumbing_snare.ogg"
+dest_files=[ "res://.import/ff_tt_136_drum_loop_plumbing_snare.ogg-8aa877f8eed8cf27277bafb76921aa9b.oggstr" ]
 
 [params]
 

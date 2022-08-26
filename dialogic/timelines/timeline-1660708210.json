@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1660708163.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1660708163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What do you think you're doing?"
+		},
+		{
+			"character": "character-1660708163.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, don't turn your back on me..."
+		},
+		{
+			"emit_signal": "door_opens",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.3",
+		"file": "timeline-1660708210.json",
+		"name": "timeline-1660708210"
+	}
+}
