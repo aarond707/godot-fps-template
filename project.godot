@@ -19,6 +19,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/world_edtior/resource/ChapterMapData.gd"
 }, {
+"base": "World",
+"class": "Characters",
+"language": "GDScript",
+"path": "res://Database/classes/Characters.gd"
+}, {
 "base": "Reference",
 "class": "DTS",
 "language": "GDScript",
@@ -459,6 +464,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/inkgd/runtime/content/void.gd"
 }, {
+"base": "World",
+"class": "Items",
+"language": "GDScript",
+"path": "res://Database/classes/Items.gd"
+}, {
 "base": "LiquidLayer",
 "class": "LavaLayer",
 "language": "GDScript",
@@ -469,6 +479,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid.gd"
 }, {
+"base": "World",
+"class": "Locations",
+"language": "GDScript",
+"path": "res://Database/classes/Locations.gd"
+}, {
 "base": "Reference",
 "class": "OFS",
 "language": "GDScript",
@@ -478,6 +493,11 @@ _global_script_classes=[ {
 "class": "OTS",
 "language": "GDScript",
 "path": "res://addons/open_kanban/system/translation.gd"
+}, {
+"base": "Resource",
+"class": "Objects",
+"language": "GDScript",
+"path": "res://Database/classes/Objects.gd"
 }, {
 "base": "Spatial",
 "class": "OrbitArm",
@@ -664,6 +684,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
 }, {
+"base": "Resource",
+"class": "World",
+"language": "GDScript",
+"path": "res://Database/classes/World.gd"
+}, {
 "base": "Object",
 "class": "WorldEditorPropertyHelper",
 "language": "GDScript",
@@ -672,6 +697,7 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "AreaMapData": "",
 "ChapterMapData": "",
+"Characters": "",
 "DTS": "",
 "Dialogic": "",
 "DialogicAnimaPropertiesHelper": "",
@@ -760,10 +786,13 @@ _global_script_class_icons={
 "InkVariableReference": "",
 "InkVariablesState": "",
 "InkVoid": "",
+"Items": "",
 "LavaLayer": "",
 "LiquidLayer": "",
+"Locations": "",
 "OFS": "",
 "OTS": "",
+"Objects": "",
 "OrbitArm": "",
 "PhysicsBall": "",
 "PhysicsEntity": "",
@@ -801,6 +830,7 @@ _global_script_class_icons={
 "TrenchBroomGameConfigFolder": "",
 "TrenchBroomTag": "",
 "WaterLayer": "",
+"World": "",
 "WorldEditorPropertyHelper": ""
 }
 

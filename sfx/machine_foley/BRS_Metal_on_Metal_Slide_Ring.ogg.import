@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/BRS_Metal_on_Metal_Slide_Ring.ogg-ec2d5e206bf8203697288674d98d3e1e.oggstr"
+path="res://.import/BRS_Metal_on_Metal_Slide_Ring.ogg-12850224fa8ef47031691b0c4331a7ab.oggstr"
 
 [deps]
 
-source_file="res://sfx/machine_foley/BRS_Metal_on_Metal_Slide_Ring.ogg"
-dest_files=[ "res://.import/BRS_Metal_on_Metal_Slide_Ring.ogg-ec2d5e206bf8203697288674d98d3e1e.oggstr" ]
+source_file="res://SFX/machine_foley/BRS_Metal_on_Metal_Slide_Ring.ogg"
+dest_files=[ "res://.import/BRS_Metal_on_Metal_Slide_Ring.ogg-12850224fa8ef47031691b0c4331a7ab.oggstr" ]
 
 [params]
 
