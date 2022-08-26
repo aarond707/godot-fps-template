@@ -22,7 +22,7 @@ _global_script_classes=[ {
 "base": "World",
 "class": "Characters",
 "language": "GDScript",
-"path": "res://Database/classes/Characters.gd"
+"path": "res://gridlessDB_data/Database/classes/Characters.gd"
 }, {
 "base": "Reference",
 "class": "DTS",
@@ -467,7 +467,7 @@ _global_script_classes=[ {
 "base": "World",
 "class": "Items",
 "language": "GDScript",
-"path": "res://Database/classes/Items.gd"
+"path": "res://gridlessDB_data/Database/classes/Items.gd"
 }, {
 "base": "LiquidLayer",
 "class": "LavaLayer",
@@ -482,7 +482,7 @@ _global_script_classes=[ {
 "base": "World",
 "class": "Locations",
 "language": "GDScript",
-"path": "res://Database/classes/Locations.gd"
+"path": "res://gridlessDB_data/Database/classes/Locations.gd"
 }, {
 "base": "Reference",
 "class": "OFS",
@@ -687,7 +687,7 @@ _global_script_classes=[ {
 "base": "Resource",
 "class": "World",
 "language": "GDScript",
-"path": "res://Database/classes/World.gd"
+"path": "res://gridlessDB_data/Database/classes/World.gd"
 }, {
 "base": "Object",
 "class": "WorldEditorPropertyHelper",
