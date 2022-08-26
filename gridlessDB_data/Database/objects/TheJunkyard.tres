@@ -4,6 +4,6 @@
 
 [resource]
 script = ExtResource( 1 )
-breathable = 1
-decay_presence = 0
+breathable = 0
+decay_presence = 2
 interior/exterior = 0
