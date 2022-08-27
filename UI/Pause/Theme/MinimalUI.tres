@@ -1,7 +1,7 @@
 [gd_resource type="Theme" load_steps=52 format=2]
 
-[ext_resource path="res://ui/Pause/Theme/OpenSans-Regular.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://ui/Pause/Theme/icons.svg" type="Texture" id=2]
+[ext_resource path="res://UI/Pause/Theme/OpenSans-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://UI/Pause/Theme/icons.svg" type="Texture" id=2]
 
 [sub_resource type="DynamicFont" id=21]
 font_data = ExtResource( 1 )

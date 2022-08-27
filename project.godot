@@ -845,8 +845,8 @@ default_bus_layout="res://Deprecated/default_bus_layout.tres"
 
 [autoload]
 
-Global="*res://Global.gd"
-Pause="*res://ui/Pause/Pause.tscn"
+Global="*res://Scripts/Global.gd"
+Pause="*res://UI/Pause/Pause.tscn"
 GameState="*res://Scripts/game_state.gd"
 
 [display]
