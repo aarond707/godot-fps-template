@@ -14,6 +14,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/world_edtior/resource/AreaMapData.gd"
 }, {
+"base": "Superstructure",
+"class": "Atmospheres",
+"language": "GDScript",
+"path": "res://gridlessDB_data/Database/classes/Atmospheres.gd"
+}, {
 "base": "Resource",
 "class": "ChapterMapData",
 "language": "GDScript",
@@ -143,6 +148,11 @@ _global_script_classes=[ {
 "class": "Foods",
 "language": "GDScript",
 "path": "res://gridlessDB_data/Database/classes/Foods.gd"
+}, {
+"base": "Superstructure",
+"class": "GenderPronouns",
+"language": "GDScript",
+"path": "res://gridlessDB_data/Database/classes/GenderPronouns.gd"
 }, {
 "base": "Node",
 "class": "GifDecoder",
@@ -489,7 +499,7 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://gridlessDB_data/Database/classes/Locations.gd"
 }, {
-"base": "Resource",
+"base": "Superstructure",
 "class": "Machines",
 "language": "GDScript",
 "path": "res://gridlessDB_data/Database/classes/Machines.gd"
@@ -709,11 +719,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
 }, {
-"base": "Resource",
-"class": "World",
-"language": "GDScript",
-"path": "res://gridlessDB_data/Database/classes/World.gd"
-}, {
 "base": "Object",
 "class": "WorldEditorPropertyHelper",
 "language": "GDScript",
@@ -721,6 +726,7 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "AreaMapData": "",
+"Atmospheres": "",
 "ChapterMapData": "",
 "Characters": "",
 "DTS": "",
@@ -747,6 +753,7 @@ _global_script_class_icons={
 "EventShow": "",
 "EventWait": "",
 "Foods": "",
+"GenderPronouns": "",
 "GifDecoder": "",
 "GifRecorder": "res://addons/GifMaker/gif.svg",
 "GifRectangle": "res://addons/GifMaker/GifRectangle.svg",
@@ -860,7 +867,6 @@ _global_script_class_icons={
 "TrenchBroomGameConfigFolder": "",
 "TrenchBroomTag": "",
 "WaterLayer": "",
-"World": "",
 "WorldEditorPropertyHelper": ""
 }
 
@@ -877,7 +883,6 @@ default_bus_layout="res://Deprecated/default_bus_layout.tres"
 
 Global="*res://Scripts/Global.gd"
 Pause="*res://UI/Pause/Pause.tscn"
-GameState="*res://Scripts/game_state.gd"
 
 [display]
 
