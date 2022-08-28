@@ -1,3 +1,3 @@
 extends Superstructure
-class_name Machines
+class_name Atmospheres
 

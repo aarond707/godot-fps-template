@@ -2,10 +2,15 @@
 
 [ext_resource path="res://gridlessDB_data/Database/classes/Characters.gd" type="Script" id=1]
 [ext_resource path="res://gridlessDB_data/Database/objects/TheCoil.tres" type="Resource" id=2]
+[ext_resource path="res://gridlessDB_data/Database/objects/CubeNoodles.tres" type="Resource" id=3]
+[ext_resource path="res://gridlessDB_data/Database/objects/SheHerHers.tres" type="Resource" id=4]
+[ext_resource path="res://gridlessDB_data/Database/objects/Decay.tres" type="Resource" id=5]
 
 [resource]
 script = ExtResource( 1 )
-name = "Ray"
-favorite_food = "Spaghetti"
-goal = "Get some sleep"
-original_home = ExtResource( 2 )
+origin = ExtResource( 2 )
+favorite_food = ExtResource( 3 )
+pronouns = ExtResource( 4 )
+official_name = "Ray"
+mostly_made_of = ExtResource( 5 )
+common_name = ""
