@@ -1,4 +1,4 @@
-extends World
+extends Superstructure
 class_name Characters
 
 export (String) var name = ""

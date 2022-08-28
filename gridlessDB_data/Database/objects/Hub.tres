@@ -1,10 +1,9 @@
 [gd_resource type="Resource" load_steps=2 format=2]
 
 [ext_resource path="res://gridlessDB_data/Database/classes/Locations.gd" type="Script" id=1]
-[ext_resource path="res://gridlessDB_data/Database/objects/Interior.tres" type="Resource" id=2]
 
 [resource]
 script = ExtResource( 1 )
 breathable = 1
 decay_presence = 0
-shelter = ExtResource( 2 )
+interior/exterior = 0
