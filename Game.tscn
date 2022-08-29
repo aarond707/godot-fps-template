@@ -3,8 +3,8 @@
 [ext_resource path="res://Stages/Stage01.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Shaders/Screen.tres" type="Material" id=2]
 [ext_resource path="res://Scripts/Ray.gd" type="Script" id=3]
+[ext_resource path="res://Music/burial at sea.ogg" type="AudioStream" id=4]
 [ext_resource path="res://UI/Pause/Theme/MinimalUI.tres" type="Theme" id=14]
-[ext_resource path="res://Music/advent velocity02.mp3" type="AudioStream" id=16]
 [ext_resource path="res://Light/GrabLightStanding01.tscn" type="PackedScene" id=17]
 [ext_resource path="res://NPCs/Ray/RaySit01.tscn" type="PackedScene" id=18]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=19]
@@ -109,7 +109,7 @@ stream = ExtResource( 24 )
 volume_db = -80.0
 
 [node name="LevelMusic" type="AudioStreamPlayer" parent="Viewport/World"]
-stream = ExtResource( 16 )
+stream = ExtResource( 4 )
 volume_db = -20.0
 autoplay = true
 

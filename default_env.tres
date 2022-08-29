@@ -20,6 +20,7 @@ fog_depth_end = 50.0
 fog_depth_curve = 0.105112
 auto_exposure_enabled = true
 ss_reflections_enabled = true
+ss_reflections_max_steps = 16
 ss_reflections_roughness = false
 ssao_radius = 2.24
 ssao_intensity = 2.35
