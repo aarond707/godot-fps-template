@@ -135,6 +135,7 @@ surfaces/1 = {
 }
 
 [node name="Small" type="RigidBody"]
+gravity_scale = 0.1
 can_sleep = false
 script = ExtResource( 1 )
 __meta__ = {

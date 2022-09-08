@@ -2,27 +2,25 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Metals_14_basecolor.png-e74835fb6e6c19a48de8d7f31270175f.s3tc.stex"
-path.etc2="res://.import/Metals_14_basecolor.png-e74835fb6e6c19a48de8d7f31270175f.etc2.stex"
+path="res://.import/Metals_14_basecolor.png-e74835fb6e6c19a48de8d7f31270175f.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://textures/PixelArtTextures/Metals_14_basecolor.png"
-dest_files=[ "res://.import/Metals_14_basecolor.png-e74835fb6e6c19a48de8d7f31270175f.s3tc.stex", "res://.import/Metals_14_basecolor.png-e74835fb6e6c19a48de8d7f31270175f.etc2.stex" ]
+dest_files=[ "res://.import/Metals_14_basecolor.png-e74835fb6e6c19a48de8d7f31270175f.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
-flags/filter=true
+flags/filter=false
 flags/mipmaps=true
 flags/anisotropic=false
 flags/srgb=1

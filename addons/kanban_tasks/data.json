@@ -42,7 +42,8 @@
         1,
         5,
         8,
-        9
+        9,
+        11
       ]
     },
     {
@@ -64,7 +65,8 @@
     {
       "title": "Notes",
       "tasks": [
-        10
+        10,
+        12
       ]
     }
   ],
@@ -123,6 +125,16 @@
       "category": 2,
       "title": "signal drama",
       "details": "having a lot of trouble grokking signals. there are a few signals built in to dialogic that are supposed to indicate when a timeline has started and ended that I want to use for controlling whether or not the player can create new dialogic instances, but for whatever reason they're not connecting"
+    },
+    {
+      "category": 0,
+      "title": "create a gravity manipulator",
+      "details": "mouse scroll wheel adjusts gravity"
+    },
+    {
+      "category": 2,
+      "title": "Task",
+      "details": "maybe we have gravity shifts. could those be attached to animations?"
     }
   ]
 }
