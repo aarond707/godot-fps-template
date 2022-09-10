@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/FF_HF_foley_washing_machine_gold.ogg-8489f61dcfe605a722db6606c622b543.oggstr"
+path="res://.import/FF_HF_foley_washing_machine_gold.ogg-b445e201cb914652ee8af739a12af468.oggstr"
 
 [deps]
 
-source_file="res://SFX/machine_foley/FF_HF_foley_washing_machine_gold.ogg"
-dest_files=[ "res://.import/FF_HF_foley_washing_machine_gold.ogg-8489f61dcfe605a722db6606c622b543.oggstr" ]
+source_file="res://sfx/machine_foley/FF_HF_foley_washing_machine_gold.ogg"
+dest_files=[ "res://.import/FF_HF_foley_washing_machine_gold.ogg-b445e201cb914652ee8af739a12af468.oggstr" ]
 
 [params]
 

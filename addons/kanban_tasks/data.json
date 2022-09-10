@@ -50,7 +50,8 @@
       "title": "Doing",
       "tasks": [
         6,
-        7
+        7,
+        13
       ]
     },
     {
@@ -135,6 +136,11 @@
       "category": 2,
       "title": "Task",
       "details": "maybe we have gravity shifts. could those be attached to animations?"
+    },
+    {
+      "category": 0,
+      "title": "create prototype block objects",
+      "details": ""
     }
   ]
 }

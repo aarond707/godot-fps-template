@@ -2,12 +2,12 @@
 
 importer="qodot.map"
 type="Resource"
-path="res://.import/circular00.1.map-928e6243d37a0352aee31b7c5952684e.tres"
+path="res://.import/circular00.1.map-8abf46be08e02f0c1ab9314f06dafa0e.tres"
 
 [deps]
 
-source_file="res://QodotMaps/autosave/circular00.1.map"
-dest_files=[ "res://.import/circular00.1.map-928e6243d37a0352aee31b7c5952684e.tres" ]
+source_file="res://qodotmaps/autosave/circular00.1.map"
+dest_files=[ "res://.import/circular00.1.map-8abf46be08e02f0c1ab9314f06dafa0e.tres" ]
 
 [params]
 

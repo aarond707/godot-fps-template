@@ -2,12 +2,12 @@
 
 importer="qodot.map"
 type="Resource"
-path="res://.import/hub00.1.map-71d4cdf5b7a379a313f5c4e506ce40a4.tres"
+path="res://.import/hub00.1.map-9c6eca39ad8fc80f7f9fc14297b49f0d.tres"
 
 [deps]
 
-source_file="res://QodotMaps/autosave/hub00.1.map"
-dest_files=[ "res://.import/hub00.1.map-71d4cdf5b7a379a313f5c4e506ce40a4.tres" ]
+source_file="res://qodotmaps/autosave/hub00.1.map"
+dest_files=[ "res://.import/hub00.1.map-9c6eca39ad8fc80f7f9fc14297b49f0d.tres" ]
 
 [params]
 

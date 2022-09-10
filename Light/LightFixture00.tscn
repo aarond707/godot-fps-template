@@ -49,7 +49,6 @@ set_owner_batch_size = 16
 [node name="entity_0_mesh_instance" type="MeshInstance" parent="Light00/entity_0_worldspawn"]
 use_in_baked_light = true
 mesh = SubResource( 101 )
-material/0 = null
 
 [node name="entity_0_brush_0_collision_shape" type="CollisionShape" parent="Light00/entity_0_worldspawn"]
 shape = SubResource( 102 )

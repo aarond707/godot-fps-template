@@ -2,12 +2,12 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/advent velocity02.mp3-d71fa7812a589f6a44f41ab20da8900b.mp3str"
+path="res://.import/advent velocity02.mp3-6149d875088af547dc932d4344e8fd4e.mp3str"
 
 [deps]
 
-source_file="res://Music/advent velocity02.mp3"
-dest_files=[ "res://.import/advent velocity02.mp3-d71fa7812a589f6a44f41ab20da8900b.mp3str" ]
+source_file="res://music/advent velocity02.mp3"
+dest_files=[ "res://.import/advent velocity02.mp3-6149d875088af547dc932d4344e8fd4e.mp3str" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/ladder00.gltf-2d69fca75200a5a13f4f08cc125f6b16.scn"
+path="res://.import/ladder00.gltf-84cb1d8a9b0b8efe02229031224774d6.scn"
 
 [deps]
 
-source_file="res://Models/ladder00.gltf"
-dest_files=[ "res://.import/ladder00.gltf-2d69fca75200a5a13f4f08cc125f6b16.scn" ]
+source_file="res://models/ladder00.gltf"
+dest_files=[ "res://.import/ladder00.gltf-84cb1d8a9b0b8efe02229031224774d6.scn" ]
 
 [params]
 
