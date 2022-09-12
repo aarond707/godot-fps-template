@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/LowPolyCharacter4.fbx-db08c4d8a5f97a8289a76f09f233f801.scn"
+path="res://.import/LowPolyCharacter4.fbx-17587aa955b9003ecac8c9c0c2b9d4a5.scn"
 
 [deps]
 
-source_file="res://models/LowPolyCharacter4.fbx"
-dest_files=[ "res://.import/LowPolyCharacter4.fbx-db08c4d8a5f97a8289a76f09f233f801.scn" ]
+source_file="res://Models/LowPolyCharacter4.fbx"
+dest_files=[ "res://.import/LowPolyCharacter4.fbx-17587aa955b9003ecac8c9c0c2b9d4a5.scn" ]
 
 [params]
 

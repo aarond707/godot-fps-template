@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/industrial_wall_07.png-8f93e1312f5cba43ea97b24cf9ed814a.stex"
+path="res://.import/industrial_wall_07.png-a0925ed7780b8c0a530a7aeec566b2f0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://aseprite/industrial_wall_07.png"
-dest_files=[ "res://.import/industrial_wall_07.png-8f93e1312f5cba43ea97b24cf9ed814a.stex" ]
+source_file="res://Aseprite/industrial_wall_07.png"
+dest_files=[ "res://.import/industrial_wall_07.png-a0925ed7780b8c0a530a7aeec566b2f0.stex" ]
 
 [params]
 
