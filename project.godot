@@ -894,7 +894,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/AsepriteWizard/plugin.cfg", "res://addons/build-and-deploy/plugin.cfg", "res://addons/csgtomeshinstance/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/qodot/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/AsepriteWizard/plugin.cfg", "res://addons/csgtomeshinstance/plugin.cfg", "res://addons/dialogic/plugin.cfg", "res://addons/event_system_plugin/plugin.cfg", "res://addons/godot_sfxr/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/qodot/plugin.cfg" )
 
 [importer_defaults]
 
