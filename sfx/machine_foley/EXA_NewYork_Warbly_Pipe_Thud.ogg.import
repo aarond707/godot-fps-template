@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/EXA_NewYork_Warbly_Pipe_Thud.ogg-184deb10e87df3658046af318d3b0477.oggstr"
+path="res://.import/EXA_NewYork_Warbly_Pipe_Thud.ogg-c484061ac693b9ba9a372315dc828079.oggstr"
 
 [deps]
 
-source_file="res://sfx/machine_foley/EXA_NewYork_Warbly_Pipe_Thud.ogg"
-dest_files=[ "res://.import/EXA_NewYork_Warbly_Pipe_Thud.ogg-184deb10e87df3658046af318d3b0477.oggstr" ]
+source_file="res://SFX/machine_foley/EXA_NewYork_Warbly_Pipe_Thud.ogg"
+dest_files=[ "res://.import/EXA_NewYork_Warbly_Pipe_Thud.ogg-c484061ac693b9ba9a372315dc828079.oggstr" ]
 
 [params]
 

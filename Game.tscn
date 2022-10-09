@@ -1,4 +1,4 @@
-[gd_scene load_steps=196 format=2]
+[gd_scene load_steps=195 format=2]
 
 [ext_resource path="res://textures/PixelArtTextures/industrial_wall_03.tres" type="Material" id=1]
 [ext_resource path="res://Shaders/Screen.tres" type="Material" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://textures/PixelArtTextures/Metals_17_basecolor.tres" type="Material" id=5]
 [ext_resource path="res://textures/PixelArtTextures/Rust_07_BaseColor.tres" type="Material" id=6]
 [ext_resource path="res://textures/PixelArtTextures/MetalPlates_08_basecolor.tres" type="Material" id=7]
+[ext_resource path="res://NPCs/Idle.tscn" type="PackedScene" id=8]
 [ext_resource path="res://textures/PixelArtTextures/SciFi_14_basecolor.tres" type="Material" id=9]
 [ext_resource path="res://textures/PixelArtTextures/MetalPlates_07_basecolor.tres" type="Material" id=10]
 [ext_resource path="res://textures/PixelArtTextures/Rust_06_BaseColor.tres" type="Material" id=11]
@@ -15,7 +16,6 @@
 [ext_resource path="res://ui/Pause/Theme/MinimalUI.tres" type="Theme" id=14]
 [ext_resource path="res://Music/advent velocity02.mp3" type="AudioStream" id=16]
 [ext_resource path="res://Light/GrabLightStanding01.tscn" type="PackedScene" id=17]
-[ext_resource path="res://NPCs/Ray/RaySit01.tscn" type="PackedScene" id=18]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=19]
 [ext_resource path="res://Ladder/ProceduralLadder.tscn" type="PackedScene" id=20]
 [ext_resource path="res://ui/Pause/Credits.tscn" type="PackedScene" id=21]
@@ -26,7 +26,6 @@
 [ext_resource path="res://mainmenu.gd" type="Script" id=27]
 [ext_resource path="res://textures/PixelArtTextures/industrial_wall_02.tres" type="Material" id=28]
 [ext_resource path="res://textures/PixelArtTextures/industrial_wall_01.tres" type="Material" id=29]
-[ext_resource path="res://textures/PixelArtTextures/Chip_05_Color.tres" type="Material" id=31]
 [ext_resource path="res://default_env.tres" type="Environment" id=33]
 
 [sub_resource type="Theme" id=1]
@@ -1323,11 +1322,8 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.24413, 83.4078, -1 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7 )
 script = ExtResource( 3 )
 
-[node name="RaySit01" parent="Viewport/World/Ray" instance=ExtResource( 18 )]
-
-[node name="CSGBox" type="CSGBox" parent="Viewport/World"]
-transform = Transform( 0.36, 0, 0, 0, 0.36, 0, 0, 0, 0.36, 0, 0.4, -6.9 )
-material = ExtResource( 31 )
+[node name="Idle" parent="Viewport/World/Ray" instance=ExtResource( 8 )]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 
 [connection signal="interact" from="Viewport/World/Player" to="Viewport/World/Ray" method="_on_Player_interact"]
 [connection signal="pressed" from="Viewport/World/Menu/Control/VBoxContainer/Button" to="Viewport/World/Menu" method="_on_Play_pressed"]
